@@ -13,6 +13,7 @@ export const PortfolioPageWrapper = styled(motion.div)`
   align-items: center;
   color: #EFCBDB;
   text-align: center;
+  z-index:9999!improtant;
 
   .portfolio-home {
     min-height: 90vh;
@@ -27,7 +28,7 @@ export const PortfolioPageWrapper = styled(motion.div)`
     position: relative;
     z-index: 1;
 
-    padding: 2% 0;
+    padding: 6% 0;
   }
 
   .single-proj p {
@@ -72,7 +73,6 @@ export const PortfolioPageWrapper = styled(motion.div)`
 
     .portfolio-right {
       flex: 2;
-      top:4%;
     }
 
     .nav-menu {

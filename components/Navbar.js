@@ -1,15 +1,9 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 import { useRouter } from "next/router";
-import { FiShoppingBag } from "react-icons/fi";
-import { MdPersonOutline } from "react-icons/md";
-import { BsFillCartFill, BsFillPersonFill, BsHouse } from "react-icons/bs";
-import { FiLogOut } from "react-icons/fi";
 import logo from "../assets/img/logo.png";
 import house from "../assets/img/house.svg";
 import Image from "next/image";
-import { useState, useEffect } from 'react';
-import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 const { AnimatePresence, motion } = require("framer-motion");
 
 const Navbar = () => {

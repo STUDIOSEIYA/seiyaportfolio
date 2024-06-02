@@ -5,7 +5,6 @@ import { FiShoppingBag } from "react-icons/fi";
 import { MdPersonOutline } from "react-icons/md";
 import { BsFillCartFill, BsFillPersonFill, BsHouse } from "react-icons/bs";
 import { FiLogOut } from "react-icons/fi";
-import { useStateContext } from "../lib/context";
 import logo from "../assets/img/logo.png";
 import house from "../assets/img/house.svg";
 import Image from "next/image";

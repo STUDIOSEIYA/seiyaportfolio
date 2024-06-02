@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from "next/link"
 import { useState,useEffect } from 'react'
 import { useRouter } from "next/router"
-import { useStateContext } from "../lib/context"
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';

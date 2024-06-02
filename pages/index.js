@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useState, useEffect } from 'react'
-import { useStateContext } from "../lib/context"
+
 import Footer from "../components/Footer"
 import { HomePageWrapper } from "../styles/HomeStyles";
 

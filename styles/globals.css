@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "Tropikal-Bold";
   src: url("../fonts/Tropikal-Bold.otf") format("opentype");
@@ -42,7 +46,7 @@ body {
   background: #2B142B !important;
   color: var(--primary);
   overflow-x:hidden;
- 
+
   
 }
 
@@ -78,9 +82,9 @@ a {
 
 /* portfolio styling */
 
-#left-tabs-example {
-  width:100% !important;
-}
+
+
+
 
 .portfolio {
   width:100vw !important;
@@ -88,6 +92,86 @@ a {
   flex-direction:row;
   justify-content:flex-start;
   align-items:flex-start;
+}
+
+@media (max-width: 767px) {
+
+
+  .menu {
+   
+    width:100% !important;
+  }
+
+  .portfolio {
+    width:100vw !important;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    margin:0 !important;
+
+  }
+
+  .nav {
+    justify-content:center !important;
+  }
+
+  .gallery-work {
+   
+    width: 100% !important;
+  }
+
+
+
+  .portfolio-left{
+    top: 0 !important;
+    position:absolute;
+    width:100vw !important;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+ 
+  }
+  
+  .portfolio-right{
+    top:25vh;
+    min-height:80vh;
+    position:relative;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+
+  }
+
+
+
+  .portfolio-filters {
+    width:100vw!important;
+  }
+
+  .nav-pills  {
+    color: #EFCBDB !important;
+    width:100vw !important;
+    font-weight:light !important;
+  
+  }
+
+  .nav-item {
+    color: #EFCBDB !important;
+    width: auto !important;
+    font-weight: light !important;
+    text-align: center !important;
+  }
+
+  .projectInfoArea h3 {
+    text-align:left !important;;
+  }
+
 }
 
 
@@ -115,20 +199,48 @@ a {
   color: #EFCBDB !important;
 }
 
-.portfolio-left{
-  flex:1;
-  height:80vh;
-  position:fixed;
-  width:20% !important;
+@media (max-width: 767px) {
+
+html,
+body {
+
+  overflow-y:scroll !important;
+  
 }
 
-.portfolio-right{
-  flex:3;
-  height:80vh;
-  position:relative;
-  left:20% !important;
-  overflow-y:scroll;
 }
+
+@media (min-width: 767px) {
+
+
+
+  .nav {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+ 
+  }
+
+  .portfolio-left{
+    flex:1;
+    height:80vh;
+    position:fixed;
+    width:17vw !important;
+
+    margin-left:2%;
+  }
+  
+  .portfolio-right{
+    flex:3;
+    min-height:80vh;
+    position:relative;
+    left:20% !important;
+    overflow-y:scroll;
+  }
+}
+
+
 .gallery-work {
   display:flex;
   flex-direction:row;

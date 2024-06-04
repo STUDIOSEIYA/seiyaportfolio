@@ -15,9 +15,8 @@ export const AboutPageWrapper = styled(motion.div)`
   color: #EFCBDB;
   text-align:center;
 
-
   .about-home{
-    height:90vh;
+    min-height:90vh;
     width:100%;
     display:flex;
     flex-direction:row;
@@ -79,102 +78,143 @@ export const AboutPageWrapper = styled(motion.div)`
 
   
 
-  .about-home .right-text{
-    height:85vh;
-    flex:2;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    text-align:center;
+  .right-text {
+    min-height: 90vh;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   
+  }
+
+  .right-text .title-area h2 {
+    line-height:calc(1.2vw + 1.3vh + 0.8vmin);
+    font-size:calc(1vw + 1vh + 0.5vmin);
+    padding: 0!important;
+  }
+  
+  .right-text p {
+    width: 80%;
+    margin-bottom: 3vh;
+    line-height:calc(.8vw + 1.0vh + 0.5vmin);
+    font-size:calc(.5vw + 0.7vh + 0.5vmin);
+    letter-spacing:.3px;
+  }
+
+  .right-text .awwards p {
+    line-height:calc(.8vw + 1.0vh + 0.5vmin);
+    font-size:calc(.5vw + 0.7vh + 0.5vmin);
+    margin: 0 !important;
+  }
+
+
+  .right-text h2 {
+    margin: 0 0 0px 15px !important;
+    padding: 0!important;
+    /* font-family: "Monument-Bold";*/
+  }
+
+  .right-text .awwards-part p {
+    text-align:center !important;
+    line-height:calc(.6vw + 1.0vh + 0.5vmin);
+    font-size:calc(.6vw + 0.5vh + 0.5vmin);
+  }
+
+  .right-text .awwards-part p span {
+    font-weight:800 !important;
+  }
+
+  .right-text .references p {
+    line-height:calc(.6vw + 1.0vh + 0.5vmin);
+    font-size:calc(.4vw + 0.5vh + 0.5vmin);
+    margin: 0 0 0 7vw !important;
+  }
+
+  .about-home .right-text p.biography{
+    width:80%;
+    margin-bottom:2vh;
+  }
+
+
+
+  .about-home .awwards-part p{
+    width:100%;
+    padding: .3vh 0 !important;
+    text-align:left;
+    margin: 0 2vh !important;
+  }
+
+  .about-home .references-part a{
+    width:100%;
+    padding: 2px 0 !important;
+    text-align:left;
+    text-decoration:none;
+    color: #EFCBDB;
+    line-height:calc(.6vw + 1.0vh + 0.5vmin);
+    font-size:calc(.6vw + 0.5vh + 0.5vmin);
+    margin: 0 0 0.5vh 0;
+  }
+
+  .references-part a span {
+    font-weight:800;
+    margin: 0 !important;
 
   }
 
+
   .title-area {
     position:relative;
-    height:5vh;
+    height:6vh;
     display:flex;
     flex-direction:row;
     justify-content:center;
     align-items:center;
     margin-bottom:1vh !important;
-    margin-left:-30px;
+    /* margin-left:-3vw; */
   }
 
- 
 
   .title-area img {
     height:1.6rem;
     width:auto;
   }
 
-  .title-area h2 {
-    margin: 0 0 0px 15px !important;
-    padding: 0!important;
-    font-size:1.8rem;
-   /* font-family: "Monument-Bold"; */
-
-  }
-
-  h2 {
-    margin: 0 0 0px 15px !important;
-    padding: 0!important;
-    font-size:1.6rem;
-    /* font-family: "Monument-Bold";*/
-
-  }
-
-
   .awwards {
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
     text-align:center;
-    margin-bottom:20px;
-
-    width:60%;
-  }
-
-  .awwards p {
-    font-size:0.9rem;
-    margin: 0 !important;
+    margin:0vh 0 2vh 0;
+    width:70%;
   }
 
   .awwards-part{
     display:flex;
     flex-direction:column;
-    justify-content:flex-start;
+    justify-content:space-around;
     align-items:center;
     text-align:center;
     margin: 0 !important;
     padding: 0 !important;
-    height:8vh;
+    height:auto;
   }
 
-  .awwards-part p {
-    text-align:center !important;
-  }
-
-  .awwards-part p span {
-    font-weight:800 !important;
-  }
-
+  
   .references {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
     text-align:center;
-    margin-bottom:20px;
- 
-    width:70%;
+    margin:0vh 0 0 5vw;
+    width:80%;
+    
   }
 
-  .references p {
-    font-size:0.9rem;
-    margin: 0 !important;
-  }
+  
 
   .references-part{
     display:flex;
@@ -182,51 +222,104 @@ export const AboutPageWrapper = styled(motion.div)`
     justify-content:center;
     align-items:center;
     text-align:center;
-    margin: 0 !important;
-    padding: 0 !important;
+    padding: 1vw 0 0 2vw !important;
+
   }
 
-  .about-home .right-text p.biography{
-    width:80%;
-    margin-bottom:3vh;
-  }
-
-  .about-home .right-text p{
-    width:100%;
-    margin-bottom:3vh;
-  }
-
-  .about-home .awwards-part p{
-    width:100%;
-    padding: 2px 0 !important;
-    text-align:left;
-    margin: 0 18px !important;
-  }
-
-  .about-home .references-part a{
-    width:100%;
-    padding: 2px 0 !important;
-    text-align:left;
-    margin: 0 18px !important;
-    text-decoration:none;
-    color: #EFCBDB;
-  }
-
-  .references-part a span {
-    font-weight:800;
-    margin: 0 !important;
-  }
+  
 
   img.clientslogo{
     position:relative;
-    width:35vw;
+    width:70%;
     height:auto;
-    margin-top:-10px;
+   
   }
 
-  .email-address a {
-    margin: 0 !important;
-    cursor:pointer;
-  }
+  @media screen and (max-width: 768px) {
+    .about-home {
+      flex-direction: column-reverse; /* Change to column layout on mobile */
+      text-align: center;
+    }
+
+    .right-text .title-area h2 {
+      line-height:calc(1.5vw + 1.3vh + 2.8vmin);
+      font-size:calc(1.2vw + 1vh + 2.5vmin);
+      padding: 0!important;
+    }
+
+    .references {
+
+      width:89%;
+      margin-bottom:2vh;
+    }
+
+    img.clientslogo{
+      position:relative;
+      width:95%;
+      height:auto;
+     
+    }
+
+    .references-part{
+      
+      padding: 0 0 0 1vw !important;
   
+    }
+
+    .about-home .references-part a{
+      width:100%;
+      padding: 2px 0 !important;
+    
+      line-height:calc(.6vw + 1.0vh + 1.9vmin);
+      font-size:calc(.6vw + 0.5vh + 1.7vmin);
+   
+    }
+
+    .right-text p {
+      width: 80%;
+      margin-bottom: 3vh;
+      line-height:calc(.8vw + 1.0vh + 2vmin);
+      font-size:calc(.5vw + 0.7vh + 1.8vmin);
+      letter-spacing:.3px;
+    }
+
+    .right-text .awwards-part p {
+      text-align:center !important;
+      line-height:calc(.6vw + 1.0vh + 1.9vmin)!important;
+      font-size:calc(.4vw + 0.5vh + 1.6vmin) !important;
+    }
+
+  
+
+    .awwards {
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between !important;
+      align-items:center;
+      text-align:center;
+      width:90%;
+    }
+  
+
+    .about-home .left-img img{
+      width:90vw;
+      height:auto;
+      margin:3vh 0 !important;
+    }
+  
+    .left-img {
+      order: 2; /* Reposition .left-img to appear below .right-text */
+    }
+  
+    .right-text {
+      order: 1; /* Reposition .right-text to appear above .left-img */
+      text-align: center;
+    }
+  
+    .right-text p {
+      width: 90%; /* Adjust text width as needed */
+    }
+  }
+
+
 `;

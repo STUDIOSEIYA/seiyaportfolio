@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
       <div className={styles.footer}>
-          <p>Hover/Click on the 3D menu :)</p>
+          <p>Enjoy my Showreel :)</p>
       </div>
     );
   };

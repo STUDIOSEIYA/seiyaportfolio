@@ -10,15 +10,15 @@ import Tab from 'react-bootstrap/Tab';
 
 
 import {
-  AboutPageWrapper
+  PortfolioPageWrapper
 
-} from "../styles/AboutStyles";
+} from "../styles/PortfolioStyles";
 
 
 export default function About() {
 
         return (
-            <AboutPageWrapper>
+            <PortfolioPageWrapper>
          
 
 
@@ -27,25 +27,26 @@ export default function About() {
          <Tab.Container id="left-tabs-example" defaultActiveKey="all">
       <Row className="portfolio">
         
-        <div className="portfolio-left">
-          <Nav variant="pills" className="flex-column">
-            <Nav.Item>
-              <Nav.Link eventKey="all">All Projects</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="first">Art Direction</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="second">Illustrations</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="third">3D</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="fourth">Motion Design</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </div>
+      <div  className="portfolio-left">
+              <Nav variant="pills" className="portfolio-filters">
+                <Nav.Item>
+                  <Nav.Link eventKey="all">All Projects</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Art Direction</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">Illustrations</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="third">3D</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="fourth">Motion Design</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </div>
+   
         <div className="portfolio-right">
           <Tab.Content>
           <Tab.Pane eventKey="all">
@@ -228,7 +229,7 @@ export default function About() {
 
           
          </div>
-          </AboutPageWrapper>
+          </PortfolioPageWrapper>
         );
 
 }

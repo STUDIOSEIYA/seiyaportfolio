@@ -5,10 +5,21 @@
     padding: 1rem 2rem;
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 0 !important;
     z-index: 100;
     transition: background-color 0.3s ease;
+    height: 8vh !important
   }
+
+  .navbar img:first-of-type {
+    width: 4vh;
+    height: auto;
+  }
+
+
+  
+
+
   
   .transparent {
     background-color: transparent;

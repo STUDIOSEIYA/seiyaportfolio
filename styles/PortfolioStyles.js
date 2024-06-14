@@ -72,6 +72,7 @@ export const PortfolioPageWrapper = styled(motion.div)`
 
     .portfolio-right {
       flex: 2;
+      top:3% !important;
     }
 
     .nav-menu {

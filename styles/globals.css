@@ -68,6 +68,10 @@ canvas {
   background: #2B142B !important;
 }
 
+.projectInfoArea  {
+  margin-top: 2% !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;

@@ -1,8 +1,8 @@
 
 import {
-    Project3DLuxuryPageWrapper
+    ProjectMotionPageWrapper
 
-  } from "../../styles/Project3DLuxuryStyles";
+  } from "../../styles/ProjectMotionStyles";
   import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
   import { useRouter } from "next/router";
   import { useStateContext } from "../../lib/context";
@@ -23,7 +23,7 @@ import {
 
   
     return (
-      <Project3DLuxuryPageWrapper>
+      <ProjectMotionPageWrapper>
 
 
       
@@ -31,13 +31,13 @@ import {
           
             <div className="videoWrapper">
           <video
-          src="/assets/video/showreel.mp4"
+          src="/assets/video/sorare.mp4"
           autoPlay
           muted
           loop
           style={{
             width: "100%",
-            height: "100%",
+            height: "92%",
             objectFit: "cover",
             position: "fixed",
             top: 0,
@@ -48,7 +48,12 @@ import {
           }}
         ></video>
 
-       
+<div className="bottomProjectPage">
+
+
+
+
+</div>
           </div>
    
 
@@ -58,7 +63,7 @@ import {
    
 
       
-        </Project3DLuxuryPageWrapper>
+        </ProjectMotionPageWrapper>
       
  
     );

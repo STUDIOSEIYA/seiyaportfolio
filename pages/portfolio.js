@@ -130,8 +130,8 @@ export default function About() {
             </div>
 
             <div className="single-proj">
-            <img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
-              <p>VENICE CARNAVAL</p>
+            <a href="portfolio/IllustrationsCarnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
+              <p>VENICE CARNAVAL</p></a>
             </div>
          <div className="single-proj">
          <a href="portfolio/3Dluxury">  <img src={"../assets/img/portfolio/3d/luxury/preview_3D_luxuray.png"} alt="3D Luxury" /></a>
@@ -256,8 +256,8 @@ export default function About() {
             </div>
 
             <div className="single-proj">
-            <img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
-              <p>VENICE CARNAVAL</p>
+            <a href="portfolio/IllustrationsCarnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
+              <p>VENICE CARNAVAL</p></a>
             </div>
 
 

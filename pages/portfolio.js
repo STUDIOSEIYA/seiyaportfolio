@@ -92,6 +92,18 @@ export default function About() {
                   <p>Paris Saint Germain x Rhinoshield</p></a>
 
                 </div>
+
+                <div className="single-proj">
+              <img src={"../assets/img/portfolio/motiondesign/preview_rewinf.png"} alt="2022 REWIND" />
+                <p>REWIND 2022</p>
+
+              </div>
+
+              <div className="single-proj">
+              <img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
+                <p>SORARE</p>
+
+              </div>
                 
                 
 
@@ -315,8 +327,14 @@ export default function About() {
               </div>
 
               <div className="single-proj">
-              <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
-                <p>2023 SHOWREEL</p>
+              <img src={"../assets/img/portfolio/motiondesign/preview_rewinf.png"} alt="2022 REWIND" />
+                <p>REWIND 2022</p>
+
+              </div>
+
+              <div className="single-proj">
+              <img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
+                <p>SORARE</p>
 
               </div>
 

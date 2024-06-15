@@ -71,7 +71,8 @@ like Spider-Man, Iron Man, Captain America  and more.</p>
                     />
             </div>
 
-            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/7EeAw54moVM?autoplay=1&mute=1&loop=1&playlist=7EeAw54moVM" frameborder="0" allow="autoplay; encrypted-media; fullscreen;
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/7EeAw54moVM?autoplay=1&mute=1&loop=1&playlist=7EeAw54moVM" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 
 
 

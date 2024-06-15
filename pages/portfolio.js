@@ -71,6 +71,13 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
+                  <a href="portfolio/graphicdesFootball"><img src={"../assets/img/portfolio/graphicdesign/preview_football_designs.png"} alt="Football Posters" />
+                  <p>FOOTBALL POSTERS</p></a>
+
+                </div>
+                
+
+                <div className="single-proj">
                 <a href="portfolio/artdirNike">  <img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
                   <p>NIKE WILD RUN</p></a>
                 </div>
@@ -179,6 +186,12 @@ export default function About() {
                 <div className="single-proj">
                 <a href="portfolio/graphicdesAlbum">   <img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
                   <p>ALBUM COVERS</p></a>
+
+                </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesFootball"><img src={"../assets/img/portfolio/graphicdesign/preview_football_designs.png"} alt="Football Posters" />
+                  <p>FOOTBALL POSTERS</p></a>
 
                 </div>
 

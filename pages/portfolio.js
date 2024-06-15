@@ -90,7 +90,7 @@ export default function About() {
 
                 <div className="single-proj">
                   <a href="portfolio/graphicdesMarvelRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_marvel.png"} alt="Rhinoshield x Marvel.png" />
-                  <p>The PowerPuff x Rhinoshield</p></a>
+                  <p>Marvel x Rhinoshield</p></a>
 
                 </div>
 
@@ -215,7 +215,7 @@ export default function About() {
 
                 <div className="single-proj">
                   <a href="portfolio/graphicdesMarvelRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_marvel.png"} alt="Rhinoshield x Marvel.png" />
-                  <p>The PowerPuff x Rhinoshield</p></a>
+                  <p>Marvel x Rhinoshield</p></a>
 
                 </div>
 

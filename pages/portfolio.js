@@ -75,6 +75,12 @@ export default function About() {
                   <p>FOOTBALL POSTERS</p></a>
 
                 </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesPuffRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_PPF.png"} alt="Rhinoshield Puff.png" />
+                  <p>The PowerPuff x Rhinoshield</p></a>
+
+                </div>
                 
 
                 <div className="single-proj">
@@ -194,6 +200,15 @@ export default function About() {
                   <p>FOOTBALL POSTERS</p></a>
 
                 </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesPuffRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_PPF.png"} alt="Rhinoshield Puff.png" />
+                  <p>The PowerPuff x Rhinoshield</p></a>
+
+                </div>
+
+
+                
 
                 
               </div>

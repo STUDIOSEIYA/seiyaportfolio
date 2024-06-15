@@ -63,7 +63,7 @@ import {
                     />
             </div>
 
-            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/zBN579TjTe0?rel=0&autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/zBN579TjTe0?rel=0&autoplay=1&loop=1&mute=1" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 
            

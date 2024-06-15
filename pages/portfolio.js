@@ -32,8 +32,12 @@ export default function About() {
                 <Nav.Item>
                   <Nav.Link eventKey="all">All Projects</Nav.Link>
                 </Nav.Item>
+                
                 <Nav.Item>
                   <Nav.Link eventKey="first">Art Direction</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="fifth">Graphic Design</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">Illustrations</Nav.Link>
@@ -44,6 +48,7 @@ export default function About() {
                 <Nav.Item>
                   <Nav.Link eventKey="fourth">Motion Design</Nav.Link>
                 </Nav.Item>
+                
               </Nav>
             </div>
    
@@ -59,6 +64,11 @@ export default function About() {
                 </div>
 
                
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesAlbum"><img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
+                  <p>ALBUM COVERS</p></a>
+
+                </div>
 
                 <div className="single-proj">
                 <a href="portfolio/artdirNike">  <img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
@@ -163,6 +173,19 @@ export default function About() {
               </div>
             
             </Tab.Pane>
+            <Tab.Pane eventKey="fifth">
+              <div className="gallery-work">
+
+                <div className="single-proj">
+                <a href="portfolio/graphicdesAlbum">   <img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
+                  <p>ALBUM COVERS</p></a>
+
+                </div>
+
+                
+              </div>
+            
+            </Tab.Pane>
             <Tab.Pane eventKey="second">
 
             <div className="gallery-work">
@@ -238,6 +261,7 @@ export default function About() {
 
               </div>
             </Tab.Pane>
+            
           </Tab.Content>
         </div>
       </Row>

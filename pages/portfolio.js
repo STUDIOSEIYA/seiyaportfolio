@@ -100,8 +100,8 @@ export default function About() {
               </div>
 
               <div className="single-proj">
-              <img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
-                <p>SORARE</p>
+              <a href="portfolio/motionSorare"><img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
+                <p>SORARE</p></a>
 
               </div>
                 
@@ -333,8 +333,8 @@ export default function About() {
               </div>
 
               <div className="single-proj">
-              <img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
-                <p>SORARE</p>
+              <a href="portfolio/motionSorare"><img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
+                <p>SORARE</p></a>
 
               </div>
 

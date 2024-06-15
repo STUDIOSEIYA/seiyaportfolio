@@ -77,10 +77,17 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
-                  <a href="portfolio/graphicdesPuffRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_PPF.png"} alt="Rhinoshield Puff.png" />
+                  <a href="portfolio/graphicdesPuffRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_PPF.png"} alt="Rhinoshield Puff" />
                   <p>The PowerPuff x Rhinoshield</p></a>
 
                 </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesPSGRhino"><img src={"../assets/img/portfolio/graphicdesign/PSGTHUM.png"} alt="Paris Saint Germain x Rhinoshield" />
+                  <p>Paris Saint Germain x Rhinoshield</p></a>
+
+                </div>
+                
                 
 
                 <div className="single-proj">
@@ -216,6 +223,12 @@ export default function About() {
                 <div className="single-proj">
                   <a href="portfolio/graphicdesMarvelRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_marvel.png"} alt="Rhinoshield x Marvel.png" />
                   <p>Marvel x Rhinoshield</p></a>
+
+                </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesPSGRhino"><img src={"../assets/img/portfolio/graphicdesign/PSGTHUM.png"} alt="Paris Saint Germain x Rhinoshield" />
+                  <p>Paris Saint Germain x Rhinoshield</p></a>
 
                 </div>
 

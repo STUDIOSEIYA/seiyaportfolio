@@ -84,6 +84,12 @@ a {
   
 }
 
+.nav-link{
+padding-left:0!important;
+}
+
+
+
 /* portfolio styling */
 
 
@@ -170,6 +176,8 @@ a {
     width: auto !important;
     font-weight: light !important;
     text-align: center !important;
+    text-align:left;
+    
   }
 
   .projectInfoArea h3 {

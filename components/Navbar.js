@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link href="/portfolio">Portfolio</Link>
         <Link href="/about">About</Link>
         <a href="mailto:contactseiyafx@gmail.com">Contact</a>
-        <Link href="/"><div className={styles.iconwrapper}><Image src={house} alt="icon house" /></div></Link>
+      
       </div>
     </div>
   );

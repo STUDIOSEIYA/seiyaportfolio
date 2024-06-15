@@ -49,12 +49,12 @@ import {
 
 
             <video width="1920" height="1080" controls autoplay loop muted>
-            <source src="/public/assets/video/2_FULL.mp4" type="video/mp4" />
+            <source src="/assets/video/2_FULL.mp4" type="video/mp4" />
             Your browser does not support the video tag.
             </video>
 
             <video width="1920" height="1080" controls autoplay loop muted>
-            <source src="/public/assets/video/3_Full.mp4" type="video/mp4" />
+            <source src="/assets/video/3_Full.mp4" type="video/mp4" />
             Your browser does not support the video tag.
             </video>
 

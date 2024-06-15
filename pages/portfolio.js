@@ -93,7 +93,9 @@ export default function About() {
 
                 </div>
 
-                <div className="single-proj">
+               
+
+              <div className="single-proj">
               <img src={"../assets/img/portfolio/motiondesign/preview_rewinf.png"} alt="2022 REWIND" />
                 <p>REWIND 2022</p>
 
@@ -168,14 +170,14 @@ export default function About() {
               </div>
 
               <div className="single-proj">
-                <img src={"../assets/img/portfolio/motiondesign/preview_showreel2021.png"} alt="2021 Showreel" />
-                <p>2021 SHOWREEL</p>
+                <a href="portfolio/motion2021showreel"> <img src={"../assets/img/portfolio/motiondesign/preview_showreel2021.png"} alt="2021 Showreel" />
+                <p>2021 SHOWREEL</p></a>
 
               </div>
 
               <div className="single-proj">
-              <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
-                <p>2022 SHOWREEL</p>
+                <a href="portfolio/motion2022showreel"> <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
+                <p>2022 SHOWREEL</p></a>
 
               </div>
 
@@ -321,8 +323,8 @@ export default function About() {
               </div>
 
               <div className="single-proj">
-              <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
-                <p>2022 SHOWREEL</p>
+                <a href="portfolio/motion2022showreel"> <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
+                <p>2022 SHOWREEL</p></a>
 
               </div>
 

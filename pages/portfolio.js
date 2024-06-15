@@ -71,6 +71,11 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
+              <a href="portfolio/3Dnexbank">    <img src={"../assets/img/portfolio/3d/nexbank/NEXTHUM.png"} alt="Nexbank" /></a>
+                <p>NEXBANK</p>
+              </div>
+
+                <div className="single-proj">
                   <a href="portfolio/graphicdesFootball"><img src={"../assets/img/portfolio/graphicdesign/preview_football_designs.png"} alt="Football Posters" />
                   <p>FOOTBALL POSTERS</p></a>
 
@@ -283,6 +288,11 @@ export default function About() {
               <div className="single-proj">
               <a href="portfolio/3Dshine">    <img src={"../assets/img/portfolio/3d/shine/preview_3D_shine.png"} alt="Shine 3D" /></a>
                 <p>SHINE 3D</p>
+              </div>
+
+              <div className="single-proj">
+              <a href="portfolio/3Dnexbank">    <img src={"../assets/img/portfolio/3d/nexbank/NEXTHUM.png"} alt="Nexbank" /></a>
+                <p>NEXBANK</p>
               </div>
 
 

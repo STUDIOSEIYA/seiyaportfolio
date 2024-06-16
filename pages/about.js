@@ -16,9 +16,7 @@ export default function About() {
       <div className="about-home">
         <div className="left-img">
         <ThreeDModel />
-          <div style={{ width: '100%' }}> {/* Adjust dimensions as needed */}
-            
-          </div>
+        
         </div>
 
         <div className="right-text">

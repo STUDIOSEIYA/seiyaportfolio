@@ -19,7 +19,7 @@ export const AboutPageWrapper = styled(motion.div)`
     min-height:90vh;
     width:100%;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-between;
     background: #2B142B;
     background-size:  center;
@@ -42,6 +42,7 @@ export const AboutPageWrapper = styled(motion.div)`
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    width:100%;
   }
 
   .about-home .left-img img{

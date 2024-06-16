@@ -1,5 +1,5 @@
 // ThreeDModel.js
-import React, { Suspense, useRef, useEffect } from 'react';
+import React, { Suspense, useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF, Html } from '@react-three/drei';
 import * as THREE from 'three';
@@ -22,10 +22,28 @@ const Model = () => {
     mixer.current?.update(delta);
   });
 
-  return <primitive position={[0, -0.85, 2.5]} object={scene} scale={1.4} />;
+  return <primitive position={[0, -1, 2.5]} object={scene} scale={1.4} />;
 };
 
 const ThreeDModel = () => {
+
+  const [transform, setTransform] = useState({ rotateX: 0, rotateY: 0 });
+
+  const handleMouseMove = (event) => {
+    const { clientX, clientY, currentTarget } = event;
+    const { left, top, width, height } = currentTarget.getBoundingClientRect();
+    const x = clientX - left - width / 2;
+    const y = clientY - top - height / 2;
+
+    const rotateX = (y / height) * 15; // Adjust 30 to control the tilt intensity
+    const rotateY = -(x / width) * 15;
+
+    setTransform({ rotateX, rotateY });
+  };
+
+  const handleMouseLeave = () => {
+    setTransform({ rotateX: 0, rotateY: 0 });
+  };
   return (
     <Canvas style={{ width: '100%', height: '100%' }}>
       <ambientLight />
@@ -33,7 +51,12 @@ const ThreeDModel = () => {
       <Suspense fallback={null}>
         <Model />
         <Html position={[-8, 2.5, 0]}>
-          <div className="text-content">
+          <div className="text-content"  onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+            style={{
+              transform: `perspective(1000px) rotateX(${transform.rotateX}deg) rotateY(${transform.rotateY}deg)`,
+              transition: 'transform 0.1s',
+            }}>
             <div className="aboutSeiyaPerso">
               <h2>About me</h2>
             </div>

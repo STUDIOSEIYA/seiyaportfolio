@@ -96,6 +96,12 @@ import {
                                     className="responsive-image"
                                 />
 
+<img
+                                    src="../../assets/img/portfolio/graphicdesign/football_designposter/8_Haaland_Halfwith.png" // Replace with your image URL
+                                    alt="Example Image"
+                                    className="responsive-image"
+                                />
+
             </div>
 
            

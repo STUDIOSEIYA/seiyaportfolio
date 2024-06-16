@@ -38,6 +38,8 @@ import {
            
             </div>
 
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/zBN579TjTe0?rel=0&autoplay=1&loop=1&mute=1&playlist=zBN579TjTe0" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
             <div className="fullwidthImg">
                 <img
                         src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/2_ppf_fullwidth.png" // Replace with your image URL
@@ -63,7 +65,7 @@ import {
                     />
             </div>
 
-            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/zBN579TjTe0?rel=0&autoplay=1&loop=1&mute=1&playlist=zBN579TjTe0" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            
 
 
 

@@ -20,15 +20,7 @@ export default function About() {
         </div>
 
         <div className="right-text">
-          <div className="title-area">
-            <img src={"/assets/img/about.svg"} alt="Icon About" />  
-            <h2>About me</h2>
-          </div>
-          <p className="biography">
-            Captivated by the image, the audiovisual but also the drawing since I discovered graphic design at the age of 15.
-            Handling the Adobe suite in a self-taught manner allowed me to increase my technique but also my autonomy.
-            I am able to adapt to teamwork. I have helped and worked with companies all over the world.
-          </p>
+         
 
           <div className="title-area">
             <img src={"/assets/img/stars.svg"} alt="Icon Awards" />  

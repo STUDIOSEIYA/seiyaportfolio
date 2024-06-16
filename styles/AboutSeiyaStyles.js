@@ -16,6 +16,8 @@ export const AboutPageWrapper = styled(motion.div)`
   text-align:center;
 
 
+
+
   .portfolio-home{
     height:90vh;
     width:100%;

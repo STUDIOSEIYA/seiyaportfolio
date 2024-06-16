@@ -327,4 +327,22 @@ body {
   font-style:italic;
 }
 
+.text-content {
+  width: 30vw;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1); /* White background with 10% opacity */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: white; /* Text color */
+}
 
+.title-area h2, .biography {
+  margin: 0; /* Remove default margin */
+}
+
+.title-area img {
+  width: 50px; /* Adjust the size of the image */
+  margin-bottom: 10px; /* Space below the image */
+}

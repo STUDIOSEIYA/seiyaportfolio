@@ -193,11 +193,9 @@ export default function About() {
 
                 </div>
 
-                
-
                 <div className="single-proj">
-                <a href="portfolio/artdirNike"><img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
-                  <p>NIKE WILD RUN</p></a>
+                <a href="portfolio/artdirSchalke">  <img src={"../assets/img/portfolio/artdirection/preview_shalke_esports.png"} alt="Schalke Esports" />
+                  <p>SCHALKE ESPORTS</p> </a>
                 </div>
 
                 <div className="single-proj">
@@ -205,11 +203,16 @@ export default function About() {
                   <p>ATLETEC TV</p></a> 
 
                 </div>
+                
 
                 <div className="single-proj">
-                <a href="portfolio/artdirSchalke">  <img src={"../assets/img/portfolio/artdirection/preview_shalke_esports.png"} alt="Schalke Esports" />
-                  <p>SCHALKE ESPORTS</p> </a>
+                <a href="portfolio/artdirNike"><img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
+                  <p>NIKE WILD RUN</p></a>
                 </div>
+
+                
+
+               
 
                 <div className="single-proj">
                 <a href="portfolio/artdirXbox"> <img src={"../assets/img/portfolio/artdirection/preview_xbox_wire.png"} alt="Xbox Wire" />

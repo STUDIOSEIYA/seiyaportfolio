@@ -38,6 +38,8 @@ import {
             <p>Brief : To make an artistic direction shifted of what is already made, with the colors but also to play with the forms of the elements of this sports.</p>
             </div>
 
+            <iframe src="https://player.vimeo.com/video/610429045?h=ee1ec0c771&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Announcement Zwift Team  Atletec x Otakamfr"></iframe>  
+
             <div className="twoImgFullWidth">
 
             <img
@@ -120,7 +122,7 @@ import {
 
 
 
-<iframe src="https://player.vimeo.com/video/610429045?h=ee1ec0c771&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Announcement Zwift Team  Atletec x Otakamfr"></iframe>  
+
 
           
             <div className="bottomProjectPage">

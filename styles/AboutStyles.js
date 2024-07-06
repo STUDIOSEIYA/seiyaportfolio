@@ -76,8 +76,10 @@ export const AboutPageWrapper = styled(motion.div)`
     padding: 2% 0 0 1%;
   }
 
-  .text-right p {
-  text-align:left;
+  .text-right h1 {
+  
+    font-size:30px;
+    margin:1% 0  2% 0;
   }
 
   .about-home .social-media {

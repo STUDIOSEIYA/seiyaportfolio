@@ -56,12 +56,26 @@ const ThreeDModel = () => {
           <div className="text-content-me">
             <div className="aboutSeiyaPerso">
             <Image
+                              src="/assets/img/behance.svg" // Adjust the path as necessary
+                              alt="Behance"
+                              width={20}
+                              height={20}
+                              style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+                            />
+            <Image
                 src="/assets/img/ig.svg" // Adjust the path as necessary
                 alt="Instagram"
                 width={20}
                 height={20}
                 style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
               />
+              <Image
+                                            src="/assets/img/twitter.svg" // Adjust the path as necessary
+                                            alt="Twitter"
+                                            width={20}
+                                            height={20}
+                                            style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+                                          />
                <Image
                 src="/assets/img/Linkedin.svg" // Adjust the path as necessary
                 alt="Linkedin"
@@ -70,21 +84,9 @@ const ThreeDModel = () => {
                 style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
               />
 
-              <Image
-                              src="/assets/img/behance.svg" // Adjust the path as necessary
-                              alt="Behance"
-                              width={20}
-                              height={20}
-                              style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
-                            />
+              
 
-              <Image
-                                            src="/assets/img/twitter.svg" // Adjust the path as necessary
-                                            alt="Twitter"
-                                            width={20}
-                                            height={20}
-                                            style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
-                                          />
+              
 
 
             </div>

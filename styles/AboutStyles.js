@@ -76,6 +76,10 @@ export const AboutPageWrapper = styled(motion.div)`
     padding: 2% 0 0 1%;
   }
 
+  .text-right p {
+  text-align:left;
+  }
+
   .about-home .social-media {
     width:auto;
     display:flex;

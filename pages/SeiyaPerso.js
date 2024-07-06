@@ -3,6 +3,7 @@ import React, { Suspense, useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF, Html } from '@react-three/drei';
 import * as THREE from 'three';
+import Image from 'next/image';
 
 const Model = () => {
   const { scene, animations } = useGLTF('/assets/3d/saluteglb.glb');
@@ -54,7 +55,38 @@ const ThreeDModel = () => {
         <Html position={[-1.5, -2.1, 0]}>
           <div className="text-content-me">
             <div className="aboutSeiyaPerso">
-              <h2>icons here</h2>
+            <Image
+                src="/assets/img/ig.svg" // Adjust the path as necessary
+                alt="Instagram"
+                width={20}
+                height={20}
+                style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+              />
+               <Image
+                src="/assets/img/Linkedin.svg" // Adjust the path as necessary
+                alt="Linkedin"
+                width={20}
+                height={20}
+                style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+              />
+
+              <Image
+                              src="/assets/img/behance.svg" // Adjust the path as necessary
+                              alt="Behance"
+                              width={20}
+                              height={20}
+                              style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+                            />
+
+              <Image
+                                            src="/assets/img/twitter.svg" // Adjust the path as necessary
+                                            alt="Twitter"
+                                            width={20}
+                                            height={20}
+                                            style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+                                          />
+
+
             </div>
             <a>contactseiyafx@gmail.com</a>
 

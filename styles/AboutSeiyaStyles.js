@@ -37,7 +37,13 @@ export const AboutPageWrapper = styled(motion.div)`
   }
 
 
+.aboutSeiyaPerso {
 
+  display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
   
 
   .about-home .left-img{

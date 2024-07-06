@@ -328,14 +328,10 @@ body {
 }
 
 .text-content-me {
-  width: 60vw;
+  width: 20vw;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.1); /* White background with 10% opacity */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
-  backdrop-filter: blur(10px); /* Blur effect */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  color: white; /* Text color */
+  color:#FCDEEA;
+
 }
 
 .text-content {
@@ -367,6 +363,32 @@ body {
   }
 }
 
+
+.awards-twocol {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width:90%;
+}
+
+.awards-twocol .awards-left {
+  width:50%;
+  padding:2% 2% 2% 0 ;
+}
+.awards-twocol .awards-right {
+  width:50%;
+  padding:2% 2% 2% 0 ;
+}
+
+.awards-twocol h2 {
+  text-align:left;
+  font-size:18px;
+}
+
+.awards-twocol p {
+  text-align:left;
+}
 
 
 

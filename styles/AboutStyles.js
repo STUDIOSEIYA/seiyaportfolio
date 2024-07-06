@@ -19,7 +19,7 @@ export const AboutPageWrapper = styled(motion.div)`
     min-height:90vh;
     width:100%;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:space-between;
     background: #2B142B;
     background-size:  center;
@@ -42,7 +42,20 @@ export const AboutPageWrapper = styled(motion.div)`
     flex-direction:row;
     justify-content:center;
     align-items:center;
-    width:100%;
+    width:50%;
+  }
+
+  .about-home .text-right{
+    height:92vh;
+
+    position:relative;
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    width:50%;
   }
 
   .about-home .left-img img{
@@ -90,6 +103,10 @@ export const AboutPageWrapper = styled(motion.div)`
    
   }
 
+  .right-text h1 {
+    line-height:calc(.8vw + .5vh + 0.8vmin) !important;
+}
+
   .right-text .title-area h2 {
     line-height:calc(1.2vw + 1.3vh + 0.8vmin);
     font-size:calc(1vw + 1vh + 0.5vmin);
@@ -136,6 +153,23 @@ export const AboutPageWrapper = styled(motion.div)`
   .about-home .right-text p.biography{
     width:80%;
     margin-bottom:2vh;
+  }
+
+  .awards-left p  {
+    margin-bottom: 0.5rem !important;
+  }
+
+   .awards-right p  {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .awards-left p span {
+    font-weight:bold
+   
+  }
+
+    .awards-right p span {
+    font-weight:bold
   }
 
 

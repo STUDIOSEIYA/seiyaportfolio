@@ -419,3 +419,36 @@ body {
   }
 }
 
+/* Hide main content and show the message on mobile devices */
+@media (max-width: 768px) {
+  .mobile-message {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .main-content {
+    display: none;
+  }
+}
+
+/* Show main content and hide the message on larger screens */
+.mobile-message {
+  display: none;
+}
+
+.main-content {
+  display: block;
+}
+
+/* Optional: Center the logo and message */
+.logo-container {
+  margin: 0 auto;
+  width: 100px; /* Adjust as necessary */
+  height: 100px; /* Adjust as necessary */
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+}

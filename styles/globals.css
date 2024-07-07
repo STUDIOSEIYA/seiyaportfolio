@@ -476,7 +476,7 @@ body {
   .desktop-only {
     display: none;
   }
-  home .left-img {
+  .about-home .left-img {
     position: relative;
     flex: 1;
     background: transparent;
@@ -484,7 +484,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100% !important;
   }
 
   .text-content-me {

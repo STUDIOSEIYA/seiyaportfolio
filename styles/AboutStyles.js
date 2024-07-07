@@ -278,7 +278,7 @@ export const AboutPageWrapper = styled(motion.div)`
 
   @media screen and (max-width: 768px) {
     .about-home {
-      flex-direction: column-reverse; /* Change to column layout on mobile */
+      flex-direction: column !important; /* Change to column layout on mobile */
       text-align: center;
     }
 

@@ -489,7 +489,7 @@ body {
   }
 
   .left-img img {
-    padding: 2% !important;
+    padding: 5% !important;
     width:30px !important;
     height:30px !important;
   }
@@ -498,6 +498,7 @@ body {
     position:relative;
     padding: 20px;
     color: #FCDEEA;
+    margin-left:-1vw!important;
   
     
   }

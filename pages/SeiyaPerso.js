@@ -55,14 +55,14 @@ const ThreeDModel = () => {
         <Html position={[-1.5, -2.1, 0]}>
           <div className="text-content-me">
             <div className="aboutSeiyaPerso">
-            <Image
+           <a href="https://behance.net/seiyafx" target="_blank"> <Image
                               src="/assets/img/behance.svg" // Adjust the path as necessary
                               alt="Behance"
                               width={20}
                               height={20}
                               style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
-                            />
-            <Image
+                            /></a>
+           <a href="https://x.com/SeiyaFX" target="_blank"><Image
                 src="/assets/img/ig.svg" // Adjust the path as necessary
                 alt="Instagram"
                 width={20}
@@ -75,14 +75,23 @@ const ThreeDModel = () => {
                                             width={20}
                                             height={20}
                                             style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
-                                          />
-               <Image
+                                          /></a> 
+           <a href="http://linkedin.com/in/thomas-travert-5852a1149/" target="_blank"><Image
+                src="/assets/img/ig.svg" // Adjust the path as necessary
+                alt="Instagram"
+                width={20}
+                height={20}
+                style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
+              />   </a>  
+              
+              
+              <a href="http://instagram.com/tvtthomas" target="_blank"><Image
                 src="/assets/img/Linkedin.svg" // Adjust the path as necessary
                 alt="Linkedin"
                 width={20}
                 height={20}
                 style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
-              />
+              /></a> 
 
               
 

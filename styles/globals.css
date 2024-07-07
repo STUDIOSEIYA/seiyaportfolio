@@ -490,6 +490,8 @@ body {
 
   .left-img img {
     padding: 2% !important;
+    width:30px !important;
+    height:30px !important;
   }
 
   .text-content-me {

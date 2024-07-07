@@ -52,7 +52,7 @@ export default function About() {
           <p> <span>Wacom</span> / Artwork of #CIntiq22HD</p>
             <p> <span>Adobe France</span> / Black and White Illustrations</p>
             <p> <span>XP Pen France</span> / Ambassadeur France</p>
-            <p> <span>Insydium XOartuckes</span> / Motion Design</p>
+            <p> <span>Insydium XParticles</span> / Motion Design</p>
           </div>
 
 

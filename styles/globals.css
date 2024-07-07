@@ -395,13 +395,13 @@ body {
   display:flex;
   flex-direction:column;
   justify-content:flex-end;
-  align-items:flex-end;
+  align-items:center;
  
 }
 
 .background-image {
   width: 100%;
-  min-height: 500px; /* Set your desired minimum height */
+  min-height: 450px; /* Set your desired minimum height */
   height: auto; /* Adjust the height as necessary for the viewport */
   background-image: url('/assets/img/project-logos.png'); /* Adjust the path as necessary */
   background-size: contain; /* Ensures the whole image is visible within the container */

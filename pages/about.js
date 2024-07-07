@@ -62,6 +62,7 @@ export default function About() {
       
       </div>
       <div className="logos-clients">
+        <h1>Worked with</h1>
         <div className="background-image"></div>
       </div>
     </AboutPageWrapper>

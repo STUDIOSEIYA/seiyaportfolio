@@ -392,17 +392,30 @@ body {
 
 .logos-clients {
   width: 100%;
-
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  align-items:flex-end;
+  background:green;
 }
 
 .background-image {
   width: 100%;
   min-height: 500px; /* Set your desired minimum height */
-  height: 20vh; /* Adjust the height as necessary for the viewport */
+  height: auto; /* Adjust the height as necessary for the viewport */
   background-image: url('/assets/img/project-logos.png'); /* Adjust the path as necessary */
   background-size: contain; /* Ensures the whole image is visible within the container */
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
+  top: -32vh;
+  position: relative; /* Needed to adjust the top position */
 }
 
+/* Media query for large screens */
+@media (min-width: 1200px) {
+  .background-image {
+    position: relative; /* Needed to adjust the top position */
+    top: -3vh; /* Adjust the top position for large screens */
+  }
+}
 

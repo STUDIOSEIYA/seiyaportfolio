@@ -76,16 +76,9 @@ const ThreeDModel = () => {
                                             height={20}
                                             style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
                                           /></a> 
-           <a href="http://linkedin.com/in/thomas-travert-5852a1149/" target="_blank"><Image
-                src="/assets/img/ig.svg" // Adjust the path as necessary
-                alt="Instagram"
-                width={20}
-                height={20}
-                style={{ width: '40px', height: '40px' }} // Inline styles to enforce dimensions
-              />   </a>  
+
               
-              
-              <a href="http://instagram.com/tvtthomas" target="_blank"><Image
+              <a href="http://linkedin.com/in/thomas-travert-5852a1149/" target="_blank"><Image
                 src="/assets/img/Linkedin.svg" // Adjust the path as necessary
                 alt="Linkedin"
                 width={20}

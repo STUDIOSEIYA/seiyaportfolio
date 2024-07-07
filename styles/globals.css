@@ -485,6 +485,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100% !important;
+    left:-2vw !important;
   }
 
   .text-content-me {

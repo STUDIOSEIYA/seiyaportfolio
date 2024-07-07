@@ -62,14 +62,8 @@ export default function About() {
       
       </div>
       <div className="logos-clients">
-          <Image
-            src="/assets/img/project-logos.png" // Adjust the path as necessary
-            alt="Client logos"
-            layout="responsive"
-            width={700}
-            height={475}
-          />
-        </div>
+        <div className="background-image"></div>
+      </div>
     </AboutPageWrapper>
   );
 }

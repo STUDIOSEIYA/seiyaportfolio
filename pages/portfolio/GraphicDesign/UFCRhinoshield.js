@@ -2,10 +2,10 @@
 import {
     Project3DLuxuryPageWrapper
 
-  } from "../../styles/Project3DLuxuryStyles";
+  } from "../../../styles/Project3DLuxuryStyles";
   import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
   import { useRouter } from "next/router";
-  import { useStateContext } from "../../lib/context";
+  import { useStateContext } from "../../../lib/context";
   import {AiFillHeart, AiOutlineHeart}  from 'react-icons/ai';
   import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
   import Tooltip from 'react-bootstrap/Tooltip';
@@ -28,41 +28,19 @@ import {
 
             <div className="projectInfoArea">
 
-            <h2>XBOX WIRE</h2>
+            <h2>UFC x Rhinoshield</h2>
 
             <h3>PROJECTS: <span>CLIENTS</span></h3>
-            <h3>SERVICES: <span>ART DIRECTION, GRAPHIC DESIGN, MOTION DESIGN</span></h3>
-            <p>Xbox France contacted me for create their own program on twitch.</p>
+            <h3>SERVICES: <span>PRODUCT DESIGN, MARKETING DESIGN & ILLUSTRATIONS</span></h3>
+            <p>The product design project of the collaboration between UFC and Rhinoshield, designed by Thomas Travert, features rugged and stylish phone cases with original designs of top UFC fighters, blending dynamic aesthetics with superior protection.</p>
 
+           
             </div>
+
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/1_Headerfull.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/artdirection/xbox/1half.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-            <img
-                                    src="../../assets/img/portfolio/artdirection/xbox/2_1half.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/artdirection/xbox/4.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -70,7 +48,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/6full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -78,7 +56,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/8full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_3.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -86,7 +64,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/9full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_4.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -94,7 +72,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/10full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_5.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -102,18 +80,17 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/11full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_6.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
-
 
 
 
 
            
-
+          
             <div className="bottomProjectPage">
 
                 <div className="buttons">

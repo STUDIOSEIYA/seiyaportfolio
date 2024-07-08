@@ -2,10 +2,10 @@
 import {
     Project3DLuxuryPageWrapper
 
-  } from "../../styles/Project3DLuxuryStyles";
+  } from "../../../styles/Project3DLuxuryStyles";
   import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
   import { useRouter } from "next/router";
-  import { useStateContext } from "../../lib/context";
+  import { useStateContext } from "../../../lib/context";
   import {AiFillHeart, AiOutlineHeart}  from 'react-icons/ai';
   import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
   import Tooltip from 'react-bootstrap/Tooltip';
@@ -28,36 +28,44 @@ import {
 
             <div className="projectInfoArea">
 
-            <h2>Paris Saint Germain x Rhinoshield</h2>
+            <h2>The PowerPuff x Rhinoshield</h2>
 
             <h3>PROJECTS: <span>CLIENTS</span></h3>
-            <h3>SERVICES: <span>GRAPHIC/MOTION DESIGN, ILLUSTRATIONS, PRODUCT DESIGN, MARKETING</span></h3>
-            <p>The collaboration between Rhinoshield and Paris Saint Germain, designed by Thomas Travert, creates an exclusive collection of smartphone protection accessories inspired by the football club's visual identity.
+            <h3>SERVICES: <span>GRAPHIC/MOTION DESIGN, PRODUCT DESIGN, MARKETING</span></h3>
+            <p>The collaboration project between The PowerPuff and RhinoShield, designed by Travert Thomas, creates durable smartphone cases with colorful designs inspired by the PowerPuff Girls. These accessories are both functional and visually appealing to fans.
 </p>
 
            
             </div>
 
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/zBN579TjTe0?rel=0&autoplay=1&loop=1&mute=1&playlist=zBN579TjTe0" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/graphicdesign/psg_rhino/PSG1_FullWitdh.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/2_ppf_fullwidth.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
 
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/3_ppf _fullwidth.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
 
-            <video width="1920" height="1080" controls autoplay loop muted>
-            <source src="/assets/video/2_FULL.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-            </video>
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/4_ppf _fullwidth.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
 
-            <video width="1920" height="1080" controls autoplay loop muted>
-            <source src="/assets/video/3_Full.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-            </video>
-
+            
 
 
 

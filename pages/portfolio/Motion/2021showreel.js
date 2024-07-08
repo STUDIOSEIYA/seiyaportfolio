@@ -2,10 +2,10 @@
 import {
     ProjectMotionPageWrapper
 
-  } from "../../styles/ProjectMotionStyles";
+  } from "../../../styles/ProjectMotionStyles";
   import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
   import { useRouter } from "next/router";
-  import { useStateContext } from "../../lib/context";
+  import { useStateContext } from "../../../lib/context";
   import {AiFillHeart, AiOutlineHeart}  from 'react-icons/ai';
   import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
   import Tooltip from 'react-bootstrap/Tooltip';

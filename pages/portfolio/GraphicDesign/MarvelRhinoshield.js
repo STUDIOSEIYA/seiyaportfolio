@@ -2,10 +2,10 @@
 import {
     Project3DLuxuryPageWrapper
 
-  } from "../../styles/Project3DLuxuryStyles";
+  } from "../../../styles/Project3DLuxuryStyles";
   import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
   import { useRouter } from "next/router";
-  import { useStateContext } from "../../lib/context";
+  import { useStateContext } from "../../../lib/context";
   import {AiFillHeart, AiOutlineHeart}  from 'react-icons/ai';
   import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
   import Tooltip from 'react-bootstrap/Tooltip';
@@ -28,47 +28,55 @@ import {
 
             <div className="projectInfoArea">
 
-            <h2>Album Covers</h2>
+            <h2>Marvel x Rhinoshield</h2>
 
-            <h3>PROJECTS: <span>PERSONAL</span></h3>
-            <h3>SERVICES: <span>GRAPHIC DESIGN</span></h3>
-            <p>Description here</p>
+            <h3>PROJECTS: <span>CLIENTS</span></h3>
+            <h3>SERVICES: <span>GRAPHIC/MOTION DESIGN, PRODUCT DESIGN, MARKETING</span></h3>
+            <p>Rhinoshield collaborates with Marvel for an exclusive collection of device protections designed by artist Thomas Travert, featuring iconic superheroes 
+like Spider-Man, Iron Man, Captain America  and more.</p>
+
+           
+            </div>
+
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/7EeAw54moVM?autoplay=1&mute=1&loop=1&playlist=7EeAw54moVM" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/2_Marvel _fullwidth.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/3_ppf 3_FULLWITDH.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/4_FULLWITDH.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/5_FULLWITDH.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
             
-           
-           
-            </div>
 
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/graphicdesign/albumcover/1_aespa_fullwith.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
 
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/graphicdesign/albumcover/2_ATARASHII GAKKO_fullwith.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
 
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/graphicdesign/albumcover/3_Somni_FullwithHaaland.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/graphicdesign/albumcover/4_Wednesday_campanella_fullwith.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
 
            
           

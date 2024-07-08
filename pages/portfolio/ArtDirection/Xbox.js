@@ -2,10 +2,10 @@
 import {
     Project3DLuxuryPageWrapper
 
-  } from "../../styles/Project3DLuxuryStyles";
+  } from "../../../styles/Project3DLuxuryStyles";
   import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
   import { useRouter } from "next/router";
-  import { useStateContext } from "../../lib/context";
+  import { useStateContext } from "../../../lib/context";
   import {AiFillHeart, AiOutlineHeart}  from 'react-icons/ai';
   import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
   import Tooltip from 'react-bootstrap/Tooltip';
@@ -28,17 +28,17 @@ import {
 
             <div className="projectInfoArea">
 
-            <h2>REYES CLOTHING</h2>
+            <h2>XBOX WIRE</h2>
 
-            <h3>PROJECTS: <span>INTERNSHIP</span></h3>
-            <h3>SERVICES: <span>ART DIRECTION, GRAPHIC DESIGN, ILLUSTRATION</span></h3>
-            <p>Reyes Clothing is a French brand, I did my internship for 1 month and I created posters around Japanese culture for the trip to Tokyo for the shooting of the Tokyo range.</p>
+            <h3>PROJECTS: <span>CLIENTS</span></h3>
+            <h3>SERVICES: <span>ART DIRECTION, GRAPHIC DESIGN, MOTION DESIGN</span></h3>
+            <p>Xbox France contacted me for create their own program on twitch.</p>
 
             </div>
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/reyes/1_header.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/1_Headerfull.jpg" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -47,29 +47,13 @@ import {
             <div className="twoImgFullWidth">
 
             <img
-                        src="../../assets/img/portfolio/illustrations/reyes/2_Half.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/1half.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
 
             <img
-                                    src="../../assets/img/portfolio/illustrations/reyes/3Half.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
-            </div>
-
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/illustrations/reyes/4_Half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-            <img
-                                    src="../../assets/img/portfolio/illustrations/reyes/6_Half.jpg" // Replace with your image URL
+                                    src="../../assets/img/portfolio/artdirection/xbox/2_1half.png" // Replace with your image URL
                                     alt="Example Image"
                                     className="responsive-image"
                                 />
@@ -78,68 +62,51 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/reyes/7full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/4.jpg" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
-
-            <div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/illustrations/reyes/8half.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/illustrations/reyes/9half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-<div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/illustrations/reyes/10Half.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/illustrations/reyes/11Half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-<div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/illustrations/reyes/12Half.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-
-
-</div>
-
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/reyes/13full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/6full.jpg" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/artdirection/xbox/8full.jpg" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
 
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/artdirection/xbox/9full.jpg" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
 
-  
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/artdirection/xbox/10full.jpg" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/artdirection/xbox/11full.jpg" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
 
 
 

@@ -41,68 +41,47 @@ import {
             <div className="twoImgFullWidth">
 
             <img
-                        src="../../assets/img/portfolio/graphicdesign/football_designposter/1_Portugal_Halfwith.jpeg" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/football_designposter/Poster_PART1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
 
-            <img
-                                    src="../../assets/img/portfolio/graphicdesign/football_designposter/2_RealMadrid_Halfwith.jpeg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
+           
             </div>
 
             <div className="twoImgFullWidth">
 
             <img
-                        src="../../assets/img/portfolio/graphicdesign/football_designposter/3_Al Nassr_Halfwith.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/football_designposter/Poster_PART2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
 
-            <img
-                                    src="../../assets/img/portfolio/graphicdesign/football_designposter/4_Nadeshiko_Halfwith.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
+           
             </div>
 
             <div className="twoImgFullWidth">
 
             <img
-                        src="../../assets/img/portfolio/graphicdesign/football_designposter/5_Mbappe_Halfwith.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/football_designposter/Poster_PART3.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
 
-            <img
-                                    src="../../assets/img/portfolio/graphicdesign/football_designposter/6_CR7_Halfwith.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
+           
             </div>
 
             <div className="twoImgFullWidth">
 
-
-
             <img
-                                    src="../../assets/img/portfolio/graphicdesign/football_designposter/7_Umut_Halfwith.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
+                        src="../../assets/img/portfolio/graphicdesign/football_designposter/Poster_PART4.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
 
-<img
-                                    src="../../assets/img/portfolio/graphicdesign/football_designposter/8_Haaland_Halfwith.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
+           
             </div>
+           
 
            
           

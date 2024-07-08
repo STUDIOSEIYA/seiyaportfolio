@@ -181,6 +181,12 @@ export default function About() {
 
               </div>
 
+              <div className="single-proj">
+                <a href="portfolio/graphicdesUFC"> <img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_UFC.png"} alt="Rhinoshield x UFC" />
+                <p>UFC x Rhinoshield</p></a>
+
+              </div>
+
               </div>
             
             </Tab.Pane>
@@ -254,7 +260,11 @@ export default function About() {
 
                 </div>
 
+                <div className="single-proj">
+                <a href="portfolio/graphicdesUFC"> <img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_UFC.png"} alt="Rhinoshield x UFC" />
+                <p>UFC x Rhinoshield</p></a>
 
+              </div>
                 
 
                 
@@ -281,6 +291,8 @@ export default function About() {
             <a href="portfolio/IllustrationsCarnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
               <p>VENICE CARNAVAL</p></a>
             </div>
+
+            
 
 
 

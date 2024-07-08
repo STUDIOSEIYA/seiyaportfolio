@@ -28,30 +28,19 @@ import {
 
             <div className="projectInfoArea">
 
-            <h2>Marvel x Rhinoshield</h2>
+            <h2>UFC x Rhinoshield</h2>
 
             <h3>PROJECTS: <span>CLIENTS</span></h3>
-            <h3>SERVICES: <span>GRAPHIC/MOTION DESIGN, PRODUCT DESIGN, MARKETING</span></h3>
-            <p>Rhinoshield collaborates with Marvel for an exclusive collection of device protections designed by artist Thomas Travert, featuring iconic superheroes 
-like Spider-Man, Iron Man, Captain America  and more.</p>
+            <h3>SERVICES: <span>PRODUCT DESIGN, MARKETING DESIGN & ILLUSTRATIONS</span></h3>
+            <p>The product design project of the collaboration between UFC and Rhinoshield, designed by Thomas Travert, features rugged and stylish phone cases with original designs of top UFC fighters, blending dynamic aesthetics with superior protection.</p>
 
            
             </div>
 
-            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/7EeAw54moVM?autoplay=1&mute=1&loop=1&playlist=7EeAw54moVM" frameborder="0" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/2_Marvel _fullwidth.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/3_ppf 3_FULLWITDH.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -59,7 +48,7 @@ like Spider-Man, Iron Man, Captain America  and more.</p>
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/4_FULLWITDH.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -67,13 +56,35 @@ like Spider-Man, Iron Man, Captain America  and more.</p>
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/graphicdesign/marvel_rhino/5_FULLWITDH.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_3.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
-            
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_4.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_5.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/graphicdesign/ufc_rhino/PART_6.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
 
 
 

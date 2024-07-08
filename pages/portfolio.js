@@ -231,26 +231,8 @@ export default function About() {
               <div className="gallery-work">
 
                 <div className="single-proj">
-                <a href="portfolio/graphicdesAlbum">   <img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
-                  <p>ALBUM COVERS</p></a>
-
-                </div>
-
-                <div className="single-proj">
-                  <a href="portfolio/graphicdesFootball"><img src={"../assets/img/portfolio/graphicdesign/preview_football_designs.png"} alt="Football Posters" />
-                  <p>FOOTBALL POSTERS</p></a>
-
-                </div>
-
-                <div className="single-proj">
-                  <a href="portfolio/graphicdesPuffRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_PPF.png"} alt="Rhinoshield Puff.png" />
-                  <p>The PowerPuff x Rhinoshield</p></a>
-
-                </div>
-
-                <div className="single-proj">
-                  <a href="portfolio/graphicdesMarvelRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_marvel.png"} alt="Rhinoshield x Marvel.png" />
-                  <p>Marvel x Rhinoshield</p></a>
+                <a href="portfolio/graphicdesUFC"> <img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_UFC.png"} alt="Rhinoshield x UFC" />
+                <p>UFC x Rhinoshield</p></a>
 
                 </div>
 
@@ -261,10 +243,38 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
-                <a href="portfolio/graphicdesUFC"> <img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_UFC.png"} alt="Rhinoshield x UFC" />
-                <p>UFC x Rhinoshield</p></a>
+                  <a href="portfolio/graphicdesMarvelRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_marvel.png"} alt="Rhinoshield x Marvel.png" />
+                  <p>Marvel x Rhinoshield</p></a>
 
-              </div>
+                </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesPuffRhino"><img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_PPF.png"} alt="Rhinoshield Puff.png" />
+                  <p>The PowerPuff x Rhinoshield</p></a>
+
+                </div>
+
+                <div className="single-proj">
+                  <a href="portfolio/graphicdesFootball"><img src={"../assets/img/portfolio/graphicdesign/preview_football_designs.png"} alt="Football Posters" />
+                  <p>FOOTBALL POSTERS</p></a>
+
+                </div>
+
+                <div className="single-proj">
+                <a href="portfolio/graphicdesAlbum">   <img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
+                  <p>ALBUM COVERS</p></a>
+
+                </div>
+
+                
+
+                
+
+                
+
+               
+
+                
                 
 
                 

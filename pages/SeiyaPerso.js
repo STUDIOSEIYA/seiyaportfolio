@@ -54,6 +54,8 @@ const ThreeDModel = () => {
     setTimeout(() => setShowReferences(false), 30500); // Hide after 30 seconds + animation duration
   };
 
+  const isMobile = useMobileDetect();
+
   return (
     <Canvas style={{ width: '100%', height: '100%' }}>
       <ambientLight />

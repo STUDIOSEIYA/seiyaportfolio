@@ -264,8 +264,22 @@ export const AboutPageWrapper = styled(motion.div)`
     align-items:center;
     text-align:center;
     padding: 1vw 0 0 2vw !important;
-
+   
   }
+
+   .img-logos {
+            padding-top: 5vh;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 5px; /* Adjust gap between images as needed */
+            justify-items: space-around;
+            align-items: space-around;
+             margin: 2%;
+        }
+        .img-logos img {
+            max-width: 100%;
+            height: auto;
+        }
 
   
 

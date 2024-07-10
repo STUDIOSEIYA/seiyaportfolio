@@ -63,7 +63,33 @@ export default function About() {
       </div>
       <div className="logos-clients">
         <h1>Worked with</h1>
-        <div className="background-image"></div>
+        <div class="img-logos">
+        <img src="../../assets/img/about/1_rhinoshield.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/2_Adobe.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/3_animeltd.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/4_ASM.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/5_Cloud9_logo.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/6_cn.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/7_Crunchyroll-Logo.wine.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/8_Disney Paris 1.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/9_Disney.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/10_Funimation.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/11_hbo.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/12_LEDGER-WORDMARK-BLACK-RGB.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/13_Logo.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/14_lucasfilm.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/15_Marvel.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/16_psg.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/17_2401_A_ALPINE-BLACK-CMYK.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/18_schalke.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/19_SIGNE_D_COQ_FRANCE_RVB.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/20_sorare logo 1.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/21_toeianimation.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/22_ufc.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/23_Warner_Bros.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/24_Xbox-Logo.wine.png" alt="Example Image" class="responsive-image" />
+        <img src="../../assets/img/about/25_xppen.png" alt="Example Image" class="responsive-image" />
+    </div>
       </div>
     </AboutPageWrapper>
   );

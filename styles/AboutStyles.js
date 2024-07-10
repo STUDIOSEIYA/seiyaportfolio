@@ -296,6 +296,10 @@ export const AboutPageWrapper = styled(motion.div)`
       text-align: center;
     }
 
+    .text-right {
+    display: none !important; /* Hide the text-right element on mobile */
+  }
+
     .right-text .title-area h2 {
       line-height:calc(1.5vw + 1.3vh + 2.8vmin);
       font-size:calc(1.2vw + 1vh + 2.5vmin);

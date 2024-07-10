@@ -27,7 +27,7 @@ const Model = () => {
 
   return (
     <primitive 
-      position={isMobile ? [0.07, -0.8, 2.5] : [0, -0.8, 2.5]} 
+      position={isMobile ? [0.1, -0.8, 2.5] : [0, -0.8, 2.5]} 
       object={scene} 
       scale={1.4} 
     />

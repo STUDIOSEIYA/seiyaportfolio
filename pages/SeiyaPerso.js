@@ -62,7 +62,7 @@ const ThreeDModel = () => {
       <pointLight position={[10, 10, 10]} />
       <Suspense fallback={null}>
         <Model />
-        <Html position={isMobile ? [-1, -2, 0] : [-0.85, -1.5, 0]}>
+        <Html position={isMobile ? [-1, -2, 0] : [-0.95, -1.5, 0]}>
           <div className="text-content-me">
             <div className="aboutSeiyaPerso">
               <a href="https://behance.net/seiyafx" target="_blank">

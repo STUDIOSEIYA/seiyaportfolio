@@ -27,7 +27,7 @@ const Model = () => {
 
   return (
     <primitive 
-      position={isMobile ? [0.1, -0.8, 2.5] : [0, -0.8, 2.5]} 
+      position={isMobile ? [0.07, -0.8, 2.5] : [0, -0.8, 2.5]} 
       object={scene} 
       scale={1.4} 
     />
@@ -54,16 +54,14 @@ const ThreeDModel = () => {
     setTimeout(() => setShowReferences(false), 30500); // Hide after 30 seconds + animation duration
   };
 
-  const isMobile = useMobileDetect();
-
   return (
     <Canvas style={{ width: '100%', height: '100%' }}>
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
       <Suspense fallback={null}>
         <Model />
-        <Html position={isMobile ? [-1, -2, 0] : [-0 -1.5, 0]}>
-          <div className="text-content-me">
+        <Html position={[-1, -1.5, 0]}>
+          <div className="text-content-me hide-on-mobile">
             <div className="aboutSeiyaPerso">
               <a href="https://behance.net/seiyafx" target="_blank">
                 <Image

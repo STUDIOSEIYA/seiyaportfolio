@@ -554,3 +554,9 @@ body {
     height: 20px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}

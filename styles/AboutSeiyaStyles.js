@@ -88,7 +88,6 @@ export const AboutPageWrapper = styled(motion.div)`
     padding: 6%;
   }
 
-  
 
   .about-home .right-text{
     height:85vh;
@@ -239,5 +238,8 @@ export const AboutPageWrapper = styled(motion.div)`
     margin: 0 !important;
     cursor:pointer;
   }
+
+
+
   
 `;

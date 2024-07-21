@@ -61,7 +61,7 @@ export const Project3DLuxuryPageWrapper = styled(motion.div)`
   }
 
   .fullwidthImg {
-    margin: 1% 0;
+    margin: 0;
     width: 100%;
     overflow: hidden; /* Ensure the image does not overflow the container */
   }

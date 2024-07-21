@@ -42,7 +42,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/2_ppf_fullwidth.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/part_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -51,19 +51,12 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/3_ppf _fullwidth.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/part_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/graphicdesign/powerpuff_rhino/4_ppf _fullwidth.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
 
             
 

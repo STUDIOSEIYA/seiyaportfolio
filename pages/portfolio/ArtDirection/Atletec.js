@@ -40,87 +40,21 @@ import {
 
             <iframe src="https://player.vimeo.com/video/610429045?h=ee1ec0c771&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Announcement Zwift Team  Atletec x Otakamfr"></iframe>  
 
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/artdirection/atletec/1_Halfwith.jpg" // Replace with your image URL
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/ArtDirection/Atletec/Zwift_PART_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
-
-            <img
-                                    src="../../assets/img/portfolio/artdirection/atletec/2_Halfwith.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
             </div>
 
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/artdirection/atletec/3_Halfwith.jpg" // Replace with your image URL
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/ArtDirection/Atletec/Comp1.gif" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
-
-            <img
-                                    src="../../assets/img/portfolio/artdirection/atletec/4Halfwith.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
             </div>
-
-            <div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/artdirection/atletec/5Halfwith.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/artdirection/atletec/6Halfwith.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-<div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/artdirection/atletec/1_half.gif" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/artdirection/atletec/2_half..gif" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-<div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/artdirection/atletec/3half..gif" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/artdirection/atletec/4half..gif" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-
 
 
 

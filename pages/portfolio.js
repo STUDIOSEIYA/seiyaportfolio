@@ -194,8 +194,8 @@ export default function About() {
               <div className="gallery-work">
 
                 <div className="single-proj">
-                  <img src={"../assets/img/portfolio/artdirection/preview_atletec_zwift.png"} alt="Atletec Zwift" />
-                  <p>ATLETEC ZWIFT</p>
+                <a href="portfolio/ArtDirection/Atletec">  <img src={"../assets/img/portfolio/artdirection/preview_atletec_zwift.png"} alt="Atletec Zwift" />
+                  <p>ATLETEC ZWIFT</p></a> 
 
                 </div>
 

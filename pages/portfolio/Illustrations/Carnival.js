@@ -38,47 +38,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/1_Header.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/2half.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-            <img
-                                    src="../../assets/img/portfolio/illustrations/venicecarnaval/3half.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
-            </div>
-
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/4half.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-            <img
-                                    src="../../assets/img/portfolio/illustrations/venicecarnaval/5half.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/6full.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/venicecarnaval/Venice_PART_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -86,7 +46,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/7full.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/venicecarnaval/Venice_PART_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -94,7 +54,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/8full.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/venicecarnaval/Venice_PART_3.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -102,7 +62,7 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/9full.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/venicecarnaval/Venice_PART_4.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -110,13 +70,13 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/venicecarnaval/10full.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/venicecarnaval/Venice_PART_5.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
-
+           
 
 
 

@@ -52,60 +52,45 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/3d/luxury/lv/fullwidthLVimg.png" // Replace with your image URL
+                        src="../../assets/img/portfolio/3d/luxury/lv/LV_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/3d/luxury/lv/2_Halfwith_Louisvuitton.png" // Replace with your image URL
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/3d/luxury/lv/LV_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
-
-            <img
-                                    src="../../assets/img/portfolio/3d/luxury/lv/3_Halfwith_Louisvuitton.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
             </div>
 
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/3d/luxury/dior/1_3_Halfwith_dior.jpg" // Replace with your image URL
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/3d/luxury/lv/LV_3.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
-
-            <img
-                                    src="../../assets/img/portfolio/3d/luxury/dior/2_3_Halfwith_dior.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
             </div>
 
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/3d/luxury/chanel/1_Halfwith_Chanel.jpg" // Replace with your image URL
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/3d/luxury/lv/LV_4.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
-
-            <img
-                                    src="../../assets/img/portfolio/3d/luxury/chanel/2_Halfwith_Chanel.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
             </div>
 
+            <div className="fullwidthImg">
+                <img
+                        src="../../assets/img/portfolio/3d/luxury/lv/LV_5.png" // Replace with your image URL
+                        alt="Example Image"
+                        className="responsive-image"
+                    />
+            </div>
+
+           
             <div className="bottomProjectPage">
 
                 <div className="buttons">

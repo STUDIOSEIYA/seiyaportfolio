@@ -137,8 +137,8 @@ export default function About() {
                 </div>
   
                 <div className="single-proj">
-              <img src={"../assets/img/portfolio/illustrations/rhino/preview_rhinoshield.png"} alt="Rhinoshield" />
-              <p>RHINOSHIELD</p>
+                  <a href="portfolio/Illustrations/PewDiePiexRhinoshield"> <img src={"../assets/img/portfolio/illustrations/rhino/preview_rhinoshield.png"} alt="Rhinoshield" />
+                  <p>PEWDIEPIE x RHINOShIELD</p></a>
 
             </div>
 
@@ -286,8 +286,8 @@ export default function About() {
             <div className="gallery-work">
 
             <div className="single-proj">
-              <img src={"../assets/img/portfolio/illustrations/rhino/preview_rhinoshield.png"} alt="Rhinoshield" />
-              <p>RHINOSHIELD</p>
+            <a href="portfolio/Illustrations/PewDiePiexRhinoshield"> <img src={"../assets/img/portfolio/illustrations/rhino/preview_rhinoshield.png"} alt="Rhinoshield" />
+            <p>PEWDIEPIE x RHINOShIELD</p></a>
 
             </div>
 

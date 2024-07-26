@@ -32,53 +32,47 @@ import {
 
             <h3>PROJECTS: <span>CLIENTS</span></h3>
             <h3>SERVICES: <span>ART DIRECTION, GRAPHIC DESIGN, MOTION DESIGN</span></h3>
-            <p>Xbox France contacted me for create their own program on twitch.</p>
+            <p>Xbox Wire est une émission en direct tous les mois  produite par Xbox, c’est une émission ou il y’a des invitées comme Le Joueur du Grenier, Domingo,Kadidiatou Diany, Ina Gilbert.
+Cette émission parle de ce qui est autour du jeux vidéo il y’a plusieurs rubriques:Autour du vert, Le Défi, La Xboîte  more info here.  
+</p>
 
             </div>
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/1_Headerfull.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/part_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
 
-            <div className="twoImgFullWidth">
+            <iframe
+                src="https://player.vimeo.com/video/714793393?h=cb258f529d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                width="1920"
+                height="1080"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="DA presentation Atletec TV"
+            ></iframe>
 
-            <img
-                        src="../../assets/img/portfolio/artdirection/xbox/1half.png" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
+<iframe
+                src="https://player.vimeo.com/video/714750174?h=dcabdf96ee&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                width="1920"
+                height="1080"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="DA presentation Atletec TV"
+            ></iframe>
 
-            <img
-                                    src="../../assets/img/portfolio/artdirection/xbox/2_1half.png" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
+            
 
-            </div>
+     
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/4.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/artdirection/xbox/6full.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/artdirection/xbox/8full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/PART_3_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
@@ -86,32 +80,11 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/artdirection/xbox/9full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/artdirection/xbox/PART_3_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/artdirection/xbox/10full.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                        src="../../assets/img/portfolio/artdirection/xbox/11full.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-            </div>
-
-
-
-
-
            
 
             <div className="bottomProjectPage">

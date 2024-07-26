@@ -49,7 +49,7 @@ export const Project3DLuxuryPageWrapper = styled(motion.div)`
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+    /* padding-bottom: 56.25%; */ /* 16:9 aspect ratio for video */
   }
   
   .react-player {
@@ -61,7 +61,7 @@ export const Project3DLuxuryPageWrapper = styled(motion.div)`
   }
 
   .fullwidthImg {
-    margin: 0;
+    margin: 0 !important;
     width: 100%;
     overflow: hidden; /* Ensure the image does not overflow the container */
   }
@@ -72,7 +72,7 @@ export const Project3DLuxuryPageWrapper = styled(motion.div)`
   }
 
   .twoImgFullWidth {
-    margin: 0% 0 1% 0;
+    margin: 0% 0 0% 0;
     width: 100%;
     display:flex;
     flex-direction:row;
@@ -82,7 +82,7 @@ export const Project3DLuxuryPageWrapper = styled(motion.div)`
 
   .twoImgFullWidth img:first-child {
     /* Styles for the first image */
-    margin-right:1%;
+    margin-right:0%;
   }
 
   .bottomProjectPage {

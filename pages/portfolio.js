@@ -126,6 +126,11 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
+                <a href="portfolio/ArtDirection/daftpunk"> <img src={"../assets/img/portfolio/artdirection/preview_daftpunk.png"} alt="Daft Punk" />
+                  <p>DAFT PUNK</p> </a>
+                </div>
+
+                <div className="single-proj">
                  <a href="portfolio/ArtDirection/Atletectv"><img src={"../assets/img/portfolio/artdirection/preview_atletec_tv.png"} alt="Atletec Zwift" />
                   <p>ATLETEC TV</p></a> 
 
@@ -214,6 +219,11 @@ export default function About() {
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Nike"><img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
                   <p>NIKE WILD RUN</p></a>
+                </div>
+
+                <div className="single-proj">
+                <a href="portfolio/ArtDirection/DaftPunk"> <img src={"../assets/img/portfolio/artdirection/preview_daftpunk.png"} alt="Daft Punk" />
+                  <p>DAFT PUNK</p> </a>
                 </div>
 
                 

@@ -38,108 +38,27 @@ import {
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/reyes/1_header.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/reyes/Tokyto_1.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
-            </div>
-
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/illustrations/reyes/2_Half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-            <img
-                                    src="../../assets/img/portfolio/illustrations/reyes/3Half.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
-            </div>
-
-            <div className="twoImgFullWidth">
-
-            <img
-                        src="../../assets/img/portfolio/illustrations/reyes/4_Half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-            <img
-                                    src="../../assets/img/portfolio/illustrations/reyes/6_Half.jpg" // Replace with your image URL
-                                    alt="Example Image"
-                                    className="responsive-image"
-                                />
-
             </div>
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/reyes/7full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/reyes/Tokyto_2.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
-
-            <div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/illustrations/reyes/8half.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/illustrations/reyes/9half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-<div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/illustrations/reyes/10Half.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-<img
-                        src="../../assets/img/portfolio/illustrations/reyes/11Half.jpg" // Replace with your image URL
-                        alt="Example Image"
-                        className="responsive-image"
-                    />
-
-</div>
-
-<div className="twoImgFullWidth">
-
-<img
-            src="../../assets/img/portfolio/illustrations/reyes/12Half.jpg" // Replace with your image URL
-            alt="Example Image"
-            className="responsive-image"
-        />
-
-
-
-</div>
-
 
             <div className="fullwidthImg">
                 <img
-                        src="../../assets/img/portfolio/illustrations/reyes/13full.jpg" // Replace with your image URL
+                        src="../../assets/img/portfolio/illustrations/reyes/Tokyto_3.png" // Replace with your image URL
                         alt="Example Image"
                         className="responsive-image"
                     />
             </div>
-
-
-
-  
 
 
 

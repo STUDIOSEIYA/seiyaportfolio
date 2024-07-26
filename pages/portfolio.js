@@ -143,13 +143,13 @@ export default function About() {
             </div>
 
             <div className="single-proj">
-              <img src={"../assets/img/portfolio/illustrations/reyes/preview_reyes.png"} alt="Reyes Tokyo x Seiya" />
-              <p>REYES TOKYO x SEIYA</p>
+            <a href="portfolio/Illustrations/Reyes"> <img src={"../assets/img/portfolio/illustrations/reyes/preview_reyes.png"} alt="Reyes Tokyo x Seiya" />
+              <p>REYES TOKYO x SEIYA</p></a>
 
             </div>
 
             <div className="single-proj">
-            <a href="portfolio/IllustrationsCarnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
+            <a href="portfolio/Illustrations/Carnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
               <p>VENICE CARNAVAL</p></a>
             </div>
          <div className="single-proj">
@@ -292,8 +292,8 @@ export default function About() {
             </div>
 
             <div className="single-proj">
-              <img src={"../assets/img/portfolio/illustrations/reyes/preview_reyes.png"} alt="Reyes Tokyo x Seiya" />
-              <p>REYES TOKYO x SEIYA</p>
+            <a href="portfolio/Illustrations/Reyes"> <img src={"../assets/img/portfolio/illustrations/reyes/preview_reyes.png"} alt="Reyes Tokyo x Seiya" />
+              <p>REYES TOKYO x SEIYA</p></a>
 
             </div>
 

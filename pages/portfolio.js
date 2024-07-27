@@ -131,7 +131,7 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
-                 <a href="portfolio/ArtDirection/Atletectv"><img src={"../assets/img/portfolio/artdirection/preview_atletec_tv.png"} alt="Atletec Zwift" />
+                 <a href="portfolio/ArtDirection/AtletecTv"><img src={"../assets/img/portfolio/artdirection/preview_atletec_tv.png"} alt="Atletec Zwift" />
                   <p>ATLETEC TV</p></a> 
 
                 </div>
@@ -210,7 +210,7 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
-                 <a href="portfolio/ArtDirection/Atletectv"><img src={"../assets/img/portfolio/artdirection/preview_atletec_tv.png"} alt="Atletec Zwift" />
+                 <a href="portfolio/ArtDirection/AtletecTv"><img src={"../assets/img/portfolio/artdirection/preview_atletec_tv.png"} alt="Atletec Zwift" />
                   <p>ATLETEC TV</p></a> 
 
                 </div>

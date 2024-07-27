@@ -560,3 +560,9 @@ body {
     display: none;
   }
 }
+
+.responsive-image, .responsive-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}

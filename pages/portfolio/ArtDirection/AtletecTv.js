@@ -25,19 +25,9 @@ export default function ProjectName() {
                 <p>ATLETEC is a professional esport structure placing human values at the heart of its activities in order to create a healthy environment promoting performance and fulfillment. ➡️ The ESPORTS Pole is composed of professional players aiming for excellence as well as amateur players to accompany and train.</p>
             </div>
 
-            <iframe
-                src="https://player.vimeo.com/video/812305416?h=3339ce9860&badge=0&autopause=0&player_id=0&app_id=58479"
-                width="1920"
-                height="1080"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                title="DA presentation Atletec TV"
-            ></iframe>
-
             <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/1Full.png"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_1.gif"
                     alt="Example Image"
                     className="responsive-image"
                 />
@@ -45,7 +35,7 @@ export default function ProjectName() {
 
             <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/2Full.png"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_2.png"
                     alt="Example Image"
                     className="responsive-image"
                 />
@@ -53,25 +43,22 @@ export default function ProjectName() {
 
             <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/3Full.png"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_3.png"
                     alt="Example Image"
                     className="responsive-image"
                 />
             </div>
 
-            <iframe
-                src="https://player.vimeo.com/video/811858080?h=7f1c9da047&badge=0&autopause=0&player_id=0&app_id=58479"
-                width="1920"
-                height="1080"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                title="DA presentation Atletec TV"
-            ></iframe>
+            <div className="fullwidthImg">
+                <video className="responsive-video" autoPlay loop muted>
+                    <source src="../../assets/img/portfolio/artdirection/atletectv/PART_4.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
 
             <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/4Full.png"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_5.png"
                     alt="Example Image"
                     className="responsive-image"
                 />
@@ -79,7 +66,7 @@ export default function ProjectName() {
 
             <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/5Full.png"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_6.png"
                     alt="Example Image"
                     className="responsive-image"
                 />
@@ -87,43 +74,29 @@ export default function ProjectName() {
 
             <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/6Full.gif"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_7.gif"
                     alt="Example Image"
                     className="responsive-image"
                 />
             </div>
 
             <div className="fullwidthImg">
+                <video className="responsive-video" autoPlay loop muted>
+                    <source src="../../assets/img/portfolio/artdirection/atletectv/PART_8.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+
+            <div className="fullwidthImg">
                 <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/7Full.png"
+                    src="../../assets/img/portfolio/artdirection/atletectv/PART_9.gif"
                     alt="Example Image"
                     className="responsive-image"
                 />
             </div>
 
-            <div className="fullwidthImg">
-                <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/9Full.gif"
-                    alt="Example Image"
-                    className="responsive-image"
-                />
-            </div>
 
-            <div className="fullwidthImg">
-                <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/10Full.gif"
-                    alt="Example Image"
-                    className="responsive-image"
-                />
-            </div>
-
-            <div className="fullwidthImg">
-                <img
-                    src="../../assets/img/portfolio/artdirection/atletectv/11Full.gif"
-                    alt="Example Image"
-                    className="responsive-image"
-                />
-            </div>
 
             <div className="bottomProjectPage">
                 <div className="buttons">

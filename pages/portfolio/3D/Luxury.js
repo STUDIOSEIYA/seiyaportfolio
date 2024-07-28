@@ -37,16 +37,7 @@ import {
 
             </div>
 
-            <div className="video-container">
-                <ReactPlayer
-                    url="https://vimeo.com/740952649 " // Replace with your video URL
-                    className="react-player"
-                    width="100%" // Set width to 100%
-                    height="100%" // Set height to 100%
-                   //controls // Show video controls
-                    playing={true} loop={true}
-                />
-            </div>
+          /* video in mp4 to get */
 
 
 

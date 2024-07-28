@@ -71,7 +71,7 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
-              <a href="portfolio/3D/Nextbank">    <img src={"../assets/img/portfolio/3d/nexbank/NEXTHUM.png"} alt="Nexbank" /></a>
+              <a href="portfolio/3D/Nexbank">    <img src={"../assets/img/portfolio/3d/nexbank/NEXTHUM.png"} alt="Nexbank" /></a>
                 <p>NEXBANK</p>
               </div>
 
@@ -132,7 +132,7 @@ export default function About() {
                 </div>
 
                 <div className="single-proj">
-                <a href="portfolio/ArtDirection/daftpunk"> <img src={"../assets/img/portfolio/artdirection/preview_daftpunk.png"} alt="Daft Punk" />
+                <a href="portfolio/ArtDirection/DaftPunk"> <img src={"../assets/img/portfolio/artdirection/preview_daftpunk.png"} alt="Daft Punk" />
                   <p>DAFT PUNK</p> </a>
                 </div>
 
@@ -193,7 +193,7 @@ export default function About() {
               </div>
 
               <div className="single-proj">
-                <a href="portfolio/GraphicDesign/UFC"> <img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_UFC.png"} alt="Rhinoshield x UFC" />
+                <a href="portfolio/GraphicDesign/UFCRhinoshield"> <img src={"../assets/img/portfolio/graphicdesign/preview_rhinoshield_UFC.png"} alt="Rhinoshield x UFC" />
                 <p>UFC x Rhinoshield</p></a>
 
               </div>

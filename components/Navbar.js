@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className={`${styles.navbar} ${isHomePage ? styles.transparent : styles.solid}`}>
       <Link href="/"><div className={styles.imgwrapper}><Image src={logo} alt="SeiyaLogo" /></div></Link>
       <div className={styles.links}>
-        <Link href="/">2070</Link>
+        <Link href="/2070">2070</Link>
         <Link href="/portfolio">Portfolio</Link>
         <Link href="/about">About</Link>
         <a href="mailto:contactseiyafx@gmail.com">Contact</a>

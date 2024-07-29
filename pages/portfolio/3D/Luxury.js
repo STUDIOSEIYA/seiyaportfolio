@@ -37,9 +37,12 @@ import {
 
             </div>
 
-          /* video in mp4 to get */
-
-
+          <div className="fullwidthImg">
+                <video className="responsive-video" autoPlay loop muted>
+                    <source src="../../assets/img/portfolio/3d/luxury/lv/LV_1.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
 
             <div className="fullwidthImg">
                 <img

@@ -5,11 +5,7 @@ import Footer from "../components/Footer"
 import { HomePageWrapper } from "../styles/HomeStyles";
 
 export default function Home() {
-  const { titlePage, setTitlePage } = useStateContext();
 
-  useEffect(() => {
-    setTitlePage("Seiya Portfolio")
-  }, []);
 
   return (
     <div>

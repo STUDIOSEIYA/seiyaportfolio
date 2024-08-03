@@ -15,16 +15,16 @@ export default function Home() {
     <div>
       <Head>
         <title>{titlePage}</title>
-        <meta name="description" content="Seiya Portfolio Website" />
-        <meta property="twitter:title" content="Seiya Portfolio Website" />
-        <meta property="twitter:description" content="Seiya Portfolio Website" />
-        <meta property="og:description" content="Seiya Portfolio Website" />
+        <meta name="description" content="Thomas Travert  Motion / Graphic designer 3D 2D Illustrator" />
+        <meta property="twitter:title" content="Thomas Travert  Motion / Graphic designer 3D 2D Illustrator" />
+        <meta property="twitter:description" content="Thomas Travert  Motion / Graphic designer 3D 2D Illustrator" />
+        <meta property="og:description" content="Thomas Travert  Motion / Graphic designer 3D 2D Illustrator" />
         <meta property="og:title" content="Seiya Portfolio Website" />
-        <meta property="og:url" content="https://www.seiyastudio.com/" />
+        <meta property="og:url" content="https://thomastravert.com/ " />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
-        <meta property="og:image" content="https://www.seiyastudio.com/thumbnail.png" />
-        <meta property="twitter:image" content="https://www.seiyastudio.com/thumbnail.png" />
+        <meta property="og:image" content="https://thomastravert.com/logo.png" />
+        <meta property="twitter:image" content="https://thomastravert.com/logo.png" />
       </Head>
 
       <HomePageWrapper>

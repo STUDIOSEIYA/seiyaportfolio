@@ -17,9 +17,7 @@ import {
 
 export default function About() {
 
-  useEffect(() => {
-    setTitlePage("Thomas Travert  Motion / Graphic designer 3D 2D Illustrator")
-  }, []);
+
 
         return (
             <PortfolioPageWrapper>

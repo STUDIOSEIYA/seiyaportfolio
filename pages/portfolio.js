@@ -61,20 +61,20 @@ export default function About() {
 
                 <div className="single-proj">
                  <a href="portfolio/ArtDirection/Atletec"><img src={"../assets/img/portfolio/artdirection/preview_atletec_zwift.png"} alt="Atletec Zwift" />
-                  <p>ATLETEC ZWIFT</p></a> 
+                  <p>Atletex Zwift</p></a> 
 
                 </div>
 
                
                 <div className="single-proj">
                   <a href="portfolio/GraphicDesign/Album"><img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
-                  <p>ALBUM COVERS</p></a>
+                  <p>Album Covers</p></a>
 
                 </div>
 
                 <div className="single-proj">
               <a href="portfolio/3D/Nexbank">    <img src={"../assets/img/portfolio/3d/nexbank/NEXTHUM.png"} alt="Nexbank" /></a>
-                <p>NEXBANK</p>
+                <p>Nexbank</p>
               </div>
 
                 <div className="single-proj">
@@ -99,13 +99,13 @@ export default function About() {
 
               <div className="single-proj">
               <img src={"../assets/img/portfolio/motiondesign/preview_rewinf.png"} alt="2022 REWIND" />
-                <p>REWIND 2022</p>
+                <p>Rewind 2022</p>
 
               </div>
 
               <div className="single-proj">
               <a href="portfolio/Motion/Sorare"><img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
-                <p>SORARE</p></a>
+                <p>Sorare</p></a>
 
               </div>
                 
@@ -113,7 +113,7 @@ export default function About() {
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Nike">  <img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
-                  <p>NIKE WILD RUN</p></a>
+                  <p>Nike Wild Run</p></a>
                 </div>
 
                 <div className="single-proj">
@@ -130,17 +130,17 @@ export default function About() {
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Schalke"> <img src={"../assets/img/portfolio/artdirection/preview_shalke_esports.png"} alt="Schalke Esports" />
-                  <p>SCHALKE ESPORTS</p> </a>
+                  <p>Schalke Esports</p> </a>
                 </div>
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/DaftPunk"> <img src={"../assets/img/portfolio/artdirection/preview_daftpunk.png"} alt="Daft Punk" />
-                  <p>DAFT PUNK</p> </a>
+                  <p>Daft Punk</p> </a>
                 </div>
 
                 <div className="single-proj">
                  <a href="portfolio/ArtDirection/AtletecTv"><img src={"../assets/img/portfolio/artdirection/preview_atletec_tv.png"} alt="Atletec Zwift" />
-                  <p>ATLETEC TV</p></a> 
+                  <p>Atletec TV</p></a> 
 
                 </div>
 
@@ -151,19 +151,19 @@ export default function About() {
   
                 <div className="single-proj">
                   <a href="portfolio/Illustrations/PewDiePiexRhinoshield"> <img src={"../assets/img/portfolio/illustrations/rhino/preview_rhinoshield.png"} alt="Rhinoshield" />
-                  <p>PEWDIEPIE x RHINOShIELD</p></a>
+                  <p>PewDiePie x Rhinoshield</p></a>
 
             </div>
 
             <div className="single-proj">
             <a href="portfolio/Illustrations/Reyes"> <img src={"../assets/img/portfolio/illustrations/reyes/preview_reyes.png"} alt="Reyes Tokyo x Seiya" />
-              <p>REYES TOKYO x SEIYA</p></a>
+              <p>Reyes Tokyo x Seiya</p></a>
 
             </div>
 
             <div className="single-proj">
             <a href="portfolio/Illustrations/Carnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
-              <p>VENICE CARNAVAL</p></a>
+              <p>Venice Carnaval</p></a>
             </div>
          <div className="single-proj">
          <a href="portfolio/3D/Luxury">  <img src={"../assets/img/portfolio/3d/luxury/preview_3D_luxuray.png"} alt="3D Luxury" /></a>
@@ -173,24 +173,24 @@ export default function About() {
            
               <div className="single-proj">
               <a href="portfolio/3D/Apps">  <img src={"../assets/img/portfolio/3d/apps/preview_3D_apps.png"} alt="3D Apps" /></a>
-                <p>3D APPS</p>
+                <p>3D Apps</p>
 
               </div>
 
               <div className="single-proj">
               <a href="portfolio/3D/Shine">    <img src={"../assets/img/portfolio/3d/shine/preview_3D_shine.png"} alt="Shine 3D" /></a>
-                <p>SHINE 3D</p>
+                <p>Shine 3D</p>
               </div>
 
               <div className="single-proj">
                 <a href="portfolio/Motion/2021showreel"> <img src={"../assets/img/portfolio/motiondesign/preview_showreel2021.png"} alt="2021 Showreel" />
-                <p>2021 SHOWREEL</p></a>
+                <p>2021 Showreel</p></a>
 
               </div>
 
               <div className="single-proj">
                 <a href="portfolio/Motion/2022showreel"> <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
-                <p>2022 SHOWREEL</p></a>
+                <p>2022 Showreel</p></a>
 
               </div>
 
@@ -208,13 +208,13 @@ export default function About() {
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Atletec">  <img src={"../assets/img/portfolio/artdirection/preview_atletec_zwift.png"} alt="Atletec Zwift" />
-                  <p>ATLETEC ZWIFT</p></a> 
+                  <p>Atletec Zwift</p></a> 
 
                 </div>
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Schalke">  <img src={"../assets/img/portfolio/artdirection/preview_shalke_esports.png"} alt="Schalke Esports" />
-                  <p>SCHALKE ESPORTS</p> </a>
+                  <p>Schalke Esports</p> </a>
                 </div>
 
                 <div className="single-proj">
@@ -226,12 +226,12 @@ export default function About() {
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Nike"><img src={"../assets/img/portfolio/artdirection/preview_nike_wild.png"} alt="Nike Wild" />
-                  <p>NIKE WILD RUN</p></a>
+                  <p>Nike Wild Run</p></a>
                 </div>
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/DaftPunk"> <img src={"../assets/img/portfolio/artdirection/preview_daftpunk.png"} alt="Daft Punk" />
-                  <p>DAFT PUNK</p> </a>
+                  <p>Daft Punk</p> </a>
                 </div>
 
                 
@@ -240,7 +240,7 @@ export default function About() {
 
                 <div className="single-proj">
                 <a href="portfolio/ArtDirection/Xbox"> <img src={"../assets/img/portfolio/artdirection/preview_xbox_wire.png"} alt="Xbox Wire" />
-                  <p>XBOX WIRE</p> </a>
+                  <p>Xbox Wire</p> </a>
                 </div>
               </div>
             
@@ -280,13 +280,13 @@ export default function About() {
 
                 <div className="single-proj">
                   <a href="portfolio/GraphicDesign/Football"><img src={"../assets/img/portfolio/graphicdesign/preview_football_designs.png"} alt="Football Posters" />
-                  <p>FOOTBALL POSTERS</p></a>
+                  <p>Football Posters</p></a>
 
                 </div>
 
                 <div className="single-proj">
                 <a href="portfolio/GraphicDesign/Album">   <img src={"../assets/img/portfolio/graphicdesign/preview_album_cover.png"} alt="Album Covers" />
-                  <p>ALBUM COVERS</p></a>
+                  <p>Album Covers</p></a>
 
                 </div>
 
@@ -311,19 +311,19 @@ export default function About() {
 
             <div className="single-proj">
             <a href="portfolio/Illustrations/PewDiePiexRhinoshield"> <img src={"../assets/img/portfolio/illustrations/rhino/preview_rhinoshield.png"} alt="Rhinoshield" />
-            <p>PEWDIEPIE x RHINOShIELD</p></a>
+            <p>PewDiePie x Rhinoshield</p></a>
 
             </div>
 
             <div className="single-proj">
             <a href="portfolio/Illustrations/Reyes"> <img src={"../assets/img/portfolio/illustrations/reyes/preview_reyes.png"} alt="Reyes Tokyo x Seiya" />
-              <p>REYES TOKYO x SEIYA</p></a>
+              <p>Reyes Tokyo x Seiya</p></a>
 
             </div>
 
             <div className="single-proj">
             <a href="portfolio/Illustrations/Carnival"><img src={"../assets/img/portfolio/illustrations/venicecarnaval/preview_venice_carnaval.png"} alt="Venice Carnaval" />
-              <p>VENICE CARNAVAL</p></a>
+              <p>Venice Carnaval</p></a>
             </div>
 
             
@@ -338,13 +338,13 @@ export default function About() {
 
               <div className="single-proj">
               <a href="portfolio/3D/Luxury">  <img src={"../assets/img/portfolio/3d/luxury/preview_3D_luxuray.png"} alt="3D Luxury" /></a>
-                <p>3D LUXURY</p>
+                <p>3D Luxury</p>
 
               </div>
 
               <div className="single-proj">
               <a href="portfolio/3D/Apps">  <img src={"../assets/img/portfolio/3d/apps/preview_3D_apps.png"} alt="3D Apps" /></a>
-                <p>3D APPS</p>
+                <p>3D Apps</p>
 
               </div>
 
@@ -355,7 +355,7 @@ export default function About() {
 
               <div className="single-proj">
               <a href="portfolio/3D/Nexbank">    <img src={"../assets/img/portfolio/3d/nexbank/NEXTHUM.png"} alt="Nexbank" /></a>
-                <p>NEXBANK</p>
+                <p>Nexbank</p>
               </div>
 
 
@@ -367,25 +367,25 @@ export default function About() {
 
               <div className="single-proj">
                 <img src={"../assets/img/portfolio/motiondesign/preview_showreel2021.png"} alt="2021 Showreel" />
-                <p>2021 SHOWREEL</p>
+                <p>2021 Showreel</p>
 
               </div>
 
               <div className="single-proj">
                 <a href="portfolio/Motion/2022showreel"> <img src={"../assets/img/portfolio/motiondesign/preview_showreel2022.png"} alt="2022 Showreel" />
-                <p>2022 SHOWREEL</p></a>
+                <p>2022 Showreel</p></a>
 
               </div>
 
               <div className="single-proj">
               <img src={"../assets/img/portfolio/motiondesign/preview_rewinf.png"} alt="2022 REWIND" />
-                <p>REWIND 2022</p>
+                <p>Rewind 2022</p>
 
               </div>
 
               <div className="single-proj">
               <a href="portfolio/Motion/Sorare"><img src={"../assets/img/portfolio/motiondesign/preview_sorare.png"} alt="Sorare" />
-                <p>SORARE</p></a>
+                <p>Sorare</p></a>
 
               </div>
 
